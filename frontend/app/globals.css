@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --aws-navy: #232f3e;
+  --aws-blue: #2563eb;
+  --aws-orange: #ec7211;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+.card {
+  @apply rounded-xl border border-slate-200 bg-white shadow-sm;
+}
+
+/* Tailwind v4: @apply only accepts real utilities, so each button class
+   repeats the shared base utilities rather than @apply-ing a custom .btn. */
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-blue-600 text-white hover:bg-blue-700;
+}
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50 border border-slate-300 bg-white text-slate-700 hover:bg-slate-100;
+}
+.btn-ghost {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50 text-slate-600 hover:bg-slate-100;
+}

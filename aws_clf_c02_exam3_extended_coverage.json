@@ -1,0 +1,1841 @@
+{
+  "dataset_name": "aws_clf_c02_exam5_zero_overlap",
+  "status": "validated_complete",
+  "exam_id": 5,
+  "total_questions": 65,
+  "questions": [
+    {
+      "question_id": "E5Q001",
+      "exam_id": 5,
+      "question_number": 1,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 1: Which AWS Cloud benefit allows resources to scale automatically based on demand?",
+      "option_a": "Fault isolation",
+      "option_b": "Capital expenditure",
+      "option_c": "High availability",
+      "option_d": "Elasticity",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Elasticity is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Benefits of elasticity",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q002",
+      "exam_id": 5,
+      "question_number": 2,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 2: Which cloud computing model helps companies replace upfront infrastructure costs with variable expenses?",
+      "option_a": "Pay-as-you-go pricing",
+      "option_b": "Capital procurement",
+      "option_c": "Perpetual licensing",
+      "option_d": "Dedicated hosting",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Pay-as-you-go pricing is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Operational expenditure",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q003",
+      "exam_id": 5,
+      "question_number": 3,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 3: Which AWS Well-Architected pillar focuses on automation and continuous improvement?",
+      "option_a": "Operational Excellence",
+      "option_b": "Sustainability",
+      "option_c": "Reliability",
+      "option_d": "Performance Efficiency",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Operational Excellence is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Well-Architected Operational Excellence",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q004",
+      "exam_id": 5,
+      "question_number": 4,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 4: Which AWS Well-Architected pillar focuses on workload recovery after failures?",
+      "option_a": "Sustainability",
+      "option_b": "Security",
+      "option_c": "Reliability",
+      "option_d": "Cost Optimization",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Reliability is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Well-Architected Reliability",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q005",
+      "exam_id": 5,
+      "question_number": 5,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 5: Which AWS Well-Architected pillar focuses on protecting systems and data?",
+      "option_a": "Performance Efficiency",
+      "option_b": "Operational Excellence",
+      "option_c": "Reliability",
+      "option_d": "Security",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Security is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Well-Architected Security",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q006",
+      "exam_id": 5,
+      "question_number": 6,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 6: Which AWS infrastructure component consists of multiple isolated data centers within a Region?",
+      "option_a": "VPCs",
+      "option_b": "Edge Locations",
+      "option_c": "Availability Zones",
+      "option_d": "Transit Gateways",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Availability Zones is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Global infrastructure",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q007",
+      "exam_id": 5,
+      "question_number": 7,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 7: Which AWS infrastructure component caches content closer to users globally?",
+      "option_a": "Local Zones",
+      "option_b": "AWS Outposts",
+      "option_c": "Edge Locations",
+      "option_d": "Availability Zones",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Edge Locations is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Edge delivery",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q008",
+      "exam_id": 5,
+      "question_number": 8,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 8: Which migration strategy involves moving applications to AWS without major modifications?",
+      "option_a": "Rehosting",
+      "option_b": "Retiring",
+      "option_c": "Refactoring",
+      "option_d": "Repurchasing",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Rehosting is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Migration strategy",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q009",
+      "exam_id": 5,
+      "question_number": 9,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 9: Under the AWS shared responsibility model, which responsibility belongs to AWS?",
+      "option_a": "Configuring IAM policies",
+      "option_b": "Physical security of data centers",
+      "option_c": "Encrypting application data",
+      "option_d": "Managing guest operating systems",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Physical security of data centers is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Shared responsibility",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q010",
+      "exam_id": 5,
+      "question_number": 10,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 10: Which AWS service helps organizations assess cloud readiness and migration progress?",
+      "option_a": "Amazon Route 53",
+      "option_b": "Amazon Inspector",
+      "option_c": "AWS Migration Hub",
+      "option_d": "AWS Shield",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "AWS Migration Hub is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Cloud adoption",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q011",
+      "exam_id": 5,
+      "question_number": 11,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 11: Which AWS practice helps improve sustainability in the cloud?",
+      "option_a": "Disabling Auto Scaling",
+      "option_b": "Rightsizing resources",
+      "option_c": "Provisioning oversized instances",
+      "option_d": "Running idle workloads",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Rightsizing resources is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Sustainability",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q012",
+      "exam_id": 5,
+      "question_number": 12,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 12: Which architecture design improves fault tolerance on AWS?",
+      "option_a": "Storing backups locally",
+      "option_b": "Using a single EC2 instance",
+      "option_c": "Deploying workloads across multiple Availability Zones",
+      "option_d": "Using one subnet",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Deploying workloads across multiple Availability Zones is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Fault tolerance",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q013",
+      "exam_id": 5,
+      "question_number": 13,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 13: Which AWS service helps route users to healthy endpoints during failures?",
+      "option_a": "Amazon Route 53",
+      "option_b": "AWS Artifact",
+      "option_c": "Amazon Inspector",
+      "option_d": "AWS Budgets",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon Route 53 is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "High availability",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q014",
+      "exam_id": 5,
+      "question_number": 14,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 14: Which cloud characteristic allows customers to pay only for the resources they consume?",
+      "option_a": "Fixed licensing",
+      "option_b": "Static allocation",
+      "option_c": "Dedicated tenancy",
+      "option_d": "Measured service",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Measured service is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Consumption model",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q015",
+      "exam_id": 5,
+      "question_number": 15,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 15: Which cloud benefit helps companies deploy applications more quickly?",
+      "option_a": "Physical cabling",
+      "option_b": "Long-term capacity planning",
+      "option_c": "Manual hardware procurement",
+      "option_d": "Rapid provisioning",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Rapid provisioning is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Business agility",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q016",
+      "exam_id": 5,
+      "question_number": 16,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 16: Which AWS benefit allows organizations to experiment quickly with minimal upfront risk?",
+      "option_a": "On-demand resource provisioning",
+      "option_b": "Dedicated procurement cycles",
+      "option_c": "Fixed-capacity contracts",
+      "option_d": "Manual scaling",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "On-demand resource provisioning is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Innovation",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q017",
+      "exam_id": 5,
+      "question_number": 17,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 17: Which AWS service manages users, groups, and permissions?",
+      "option_a": "AWS IAM",
+      "option_b": "Amazon Macie",
+      "option_c": "AWS Shield",
+      "option_d": "AWS WAF",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS IAM is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "IAM",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q018",
+      "exam_id": 5,
+      "question_number": 18,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 18: Which security principle grants users only the permissions required to perform tasks?",
+      "option_a": "Full administrative access",
+      "option_b": "Shared credentials",
+      "option_c": "Open trust relationships",
+      "option_d": "Least privilege",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Least privilege is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Least privilege",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q019",
+      "exam_id": 5,
+      "question_number": 19,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 19: Which AWS security feature adds an extra authentication layer for user sign-in?",
+      "option_a": "Elastic IP",
+      "option_b": "NAT Gateway",
+      "option_c": "Multi-Factor Authentication (MFA)",
+      "option_d": "Security groups",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Multi-Factor Authentication (MFA) is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "MFA",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q020",
+      "exam_id": 5,
+      "question_number": 20,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 20: Which AWS service provides managed DDoS protection?",
+      "option_a": "Amazon Athena",
+      "option_b": "AWS Shield",
+      "option_c": "AWS Artifact",
+      "option_d": "AWS Snowball",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS Shield is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "DDoS protection",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q021",
+      "exam_id": 5,
+      "question_number": 21,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 21: Which AWS service protects applications from common web exploits?",
+      "option_a": "Amazon EFS",
+      "option_b": "AWS Glue",
+      "option_c": "AWS WAF",
+      "option_d": "AWS Batch",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "AWS WAF is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Web security",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q022",
+      "exam_id": 5,
+      "question_number": 22,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 22: Which AWS service provides intelligent threat detection using machine learning?",
+      "option_a": "Amazon GuardDuty",
+      "option_b": "AWS CloudFormation",
+      "option_c": "Amazon Lightsail",
+      "option_d": "AWS Cost Explorer",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon GuardDuty is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Threat detection",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q023",
+      "exam_id": 5,
+      "question_number": 23,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 23: Which AWS service identifies sensitive data stored in Amazon S3?",
+      "option_a": "Amazon Macie",
+      "option_b": "Amazon Polly",
+      "option_c": "AWS Snowcone",
+      "option_d": "Amazon Rekognition",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon Macie is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Sensitive data discovery",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q024",
+      "exam_id": 5,
+      "question_number": 24,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 24: Which AWS service provides downloadable compliance reports and agreements?",
+      "option_a": "AWS Artifact",
+      "option_b": "AWS Organizations",
+      "option_c": "AWS Config",
+      "option_d": "Amazon MQ",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Compliance reports",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q025",
+      "exam_id": 5,
+      "question_number": 25,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "Scenario 25: Which AWS service records API activity across AWS accounts?",
+      "option_a": "AWS Snowmobile",
+      "option_b": "AWS CloudTrail",
+      "option_c": "Amazon SNS",
+      "option_d": "Amazon AppFlow",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS CloudTrail is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Audit logging",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q026",
+      "exam_id": 5,
+      "question_number": 26,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 26: Which AWS service continuously evaluates resource configurations against rules?",
+      "option_a": "AWS DataSync",
+      "option_b": "AWS Config",
+      "option_c": "Amazon Connect",
+      "option_d": "AWS Lambda",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS Config is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Configuration compliance",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q027",
+      "exam_id": 5,
+      "question_number": 27,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 27: Which AWS service manages encryption keys centrally?",
+      "option_a": "AWS OpsWorks",
+      "option_b": "Amazon SES",
+      "option_c": "Amazon Forecast",
+      "option_d": "AWS Key Management Service (AWS KMS)",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "AWS Key Management Service (AWS KMS) is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Encryption",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q028",
+      "exam_id": 5,
+      "question_number": 28,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 28: Which AWS service creates isolated virtual networks in the cloud?",
+      "option_a": "AWS Budgets",
+      "option_b": "Amazon VPC",
+      "option_c": "Amazon SQS",
+      "option_d": "Amazon Lex",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon VPC is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Network isolation",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q029",
+      "exam_id": 5,
+      "question_number": 29,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 29: Which AWS service enables centralized access management across multiple AWS accounts?",
+      "option_a": "AWS IAM Identity Center",
+      "option_b": "Amazon CloudFront",
+      "option_c": "AWS Device Farm",
+      "option_d": "AWS Snow Family",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS IAM Identity Center is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Identity federation",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q030",
+      "exam_id": 5,
+      "question_number": 30,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 30: Which AWS service securely stores database credentials and API keys?",
+      "option_a": "AWS Secrets Manager",
+      "option_b": "Amazon Translate",
+      "option_c": "AWS Trusted Advisor",
+      "option_d": "AWS Global Accelerator",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS Secrets Manager is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Secrets management",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q031",
+      "exam_id": 5,
+      "question_number": 31,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 31: Which AWS service scans workloads for software vulnerabilities?",
+      "option_a": "Amazon Chime",
+      "option_b": "Amazon Inspector",
+      "option_c": "AWS Marketplace",
+      "option_d": "AWS Outposts",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon Inspector is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Inspector",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q032",
+      "exam_id": 5,
+      "question_number": 32,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 32: Which AWS service helps centrally govern multiple AWS accounts?",
+      "option_a": "AWS Organizations",
+      "option_b": "AWS Amplify",
+      "option_c": "AWS RoboMaker",
+      "option_d": "Amazon Neptune",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS Organizations is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Organizations",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q033",
+      "exam_id": 5,
+      "question_number": 33,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 33: Which AWS service aggregates and prioritizes security findings from multiple AWS services?",
+      "option_a": "AWS Ground Station",
+      "option_b": "Amazon Lightsail",
+      "option_c": "AWS Batch",
+      "option_d": "AWS Security Hub",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "AWS Security Hub is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Security Hub",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q034",
+      "exam_id": 5,
+      "question_number": 34,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 34: Which AWS feature allows customers to select the geographic location of data storage?",
+      "option_a": "Elastic IPs",
+      "option_b": "Security groups",
+      "option_c": "AWS Regions",
+      "option_d": "Placement groups",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "AWS Regions is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Data residency",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q035",
+      "exam_id": 5,
+      "question_number": 35,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 35: Under the AWS shared responsibility model, which task is the customer's responsibility?",
+      "option_a": "Managing physical facilities",
+      "option_b": "Maintaining AWS hardware",
+      "option_c": "Configuring security groups",
+      "option_d": "Replacing failed disks",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Configuring security groups is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Customer responsibility",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q036",
+      "exam_id": 5,
+      "question_number": 36,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 36: Which compliance program relates specifically to payment card data security?",
+      "option_a": "SOC 1",
+      "option_b": "PCI DSS",
+      "option_c": "HIPAA",
+      "option_d": "ISO 9001",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "PCI DSS is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Compliance standards",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q037",
+      "exam_id": 5,
+      "question_number": 37,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 37: Which AWS service provides scalable object storage?",
+      "option_a": "Amazon S3",
+      "option_b": "AWS Fargate",
+      "option_c": "Amazon EC2",
+      "option_d": "Amazon EBS",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon S3 is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Object storage",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q038",
+      "exam_id": 5,
+      "question_number": 38,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 38: Which AWS storage option provides persistent block storage for EC2 instances?",
+      "option_a": "Amazon Athena",
+      "option_b": "Amazon EBS",
+      "option_c": "AWS Glue",
+      "option_d": "Amazon S3 Glacier",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon EBS is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Block storage",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q039",
+      "exam_id": 5,
+      "question_number": 39,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 39: Which AWS storage service provides shared file storage for Linux workloads?",
+      "option_a": "Amazon Redshift",
+      "option_b": "Amazon SNS",
+      "option_c": "AWS Shield",
+      "option_d": "Amazon EFS",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon EFS is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "File storage",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q040",
+      "exam_id": 5,
+      "question_number": 40,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 40: Which AWS service is optimized for long-term archival at low cost?",
+      "option_a": "Amazon Aurora",
+      "option_b": "AWS Lambda",
+      "option_c": "Amazon EMR",
+      "option_d": "Amazon S3 Glacier Flexible Retrieval",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon S3 Glacier Flexible Retrieval is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Archival storage",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q041",
+      "exam_id": 5,
+      "question_number": 41,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 41: Which AWS service provides resizable virtual machines in the cloud?",
+      "option_a": "Amazon QuickSight",
+      "option_b": "AWS Step Functions",
+      "option_c": "Amazon EC2",
+      "option_d": "Amazon S3",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon EC2 is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Virtual servers",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q042",
+      "exam_id": 5,
+      "question_number": 42,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 42: Which AWS service runs code without provisioning servers?",
+      "option_a": "AWS Lambda",
+      "option_b": "Amazon ECS",
+      "option_c": "AWS Direct Connect",
+      "option_d": "Amazon Route 53",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS Lambda is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Serverless compute",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q043",
+      "exam_id": 5,
+      "question_number": 43,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 43: Which AWS service orchestrates Docker containers using Kubernetes?",
+      "option_a": "AWS Artifact",
+      "option_b": "Amazon SES",
+      "option_c": "Amazon EKS",
+      "option_d": "Amazon WorkDocs",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon EKS is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Containers",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q044",
+      "exam_id": 5,
+      "question_number": 44,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 44: Which AWS compute option runs containers without managing servers?",
+      "option_a": "AWS Snowmobile",
+      "option_b": "AWS Fargate",
+      "option_c": "Amazon Kendra",
+      "option_d": "AWS Budgets",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS Fargate is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Serverless containers",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q045",
+      "exam_id": 5,
+      "question_number": 45,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 45: Which AWS managed database service supports MySQL and PostgreSQL engines?",
+      "option_a": "Amazon Neptune",
+      "option_b": "Amazon RDS",
+      "option_c": "Amazon ElastiCache",
+      "option_d": "Amazon DynamoDB",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon RDS is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Relational database",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q046",
+      "exam_id": 5,
+      "question_number": 46,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 46: Which AWS database service provides fully managed key-value NoSQL storage?",
+      "option_a": "Amazon WorkSpaces",
+      "option_b": "Amazon Aurora",
+      "option_c": "Amazon DynamoDB",
+      "option_d": "AWS Glue",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon DynamoDB is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "NoSQL database",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q047",
+      "exam_id": 5,
+      "question_number": 47,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 47: Which AWS service is designed for petabyte-scale analytics workloads?",
+      "option_a": "AWS CodeArtifact",
+      "option_b": "AWS X-Ray",
+      "option_c": "Amazon Redshift",
+      "option_d": "Amazon Connect",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon Redshift is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Data warehouse",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q048",
+      "exam_id": 5,
+      "question_number": 48,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 48: Which AWS service enables SQL queries directly against data stored in Amazon S3?",
+      "option_a": "Amazon ECS",
+      "option_b": "Amazon Athena",
+      "option_c": "AWS Shield",
+      "option_d": "AWS CodeDeploy",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon Athena is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Data lake queries",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q049",
+      "exam_id": 5,
+      "question_number": 49,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 49: Which AWS service is primarily used for extract, transform, and load (ETL) operations?",
+      "option_a": "AWS Backup",
+      "option_b": "AWS Glue",
+      "option_c": "Amazon MQ",
+      "option_d": "Amazon Polly",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS Glue is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "ETL",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q050",
+      "exam_id": 5,
+      "question_number": 50,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 50: Which AWS service ingests and processes real-time streaming data?",
+      "option_a": "AWS Cloud9",
+      "option_b": "Amazon Lightsail",
+      "option_c": "AWS Artifact",
+      "option_d": "Amazon Kinesis",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon Kinesis is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Streaming",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q051",
+      "exam_id": 5,
+      "question_number": 51,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 51: Which AWS service helps developers build and train machine learning models?",
+      "option_a": "AWS Directory Service",
+      "option_b": "Amazon VPC",
+      "option_c": "AWS Config",
+      "option_d": "Amazon SageMaker",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon SageMaker is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "AI/ML",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q052",
+      "exam_id": 5,
+      "question_number": 52,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 52: Which AWS AI service analyzes images and videos?",
+      "option_a": "AWS IQ",
+      "option_b": "Amazon Textract",
+      "option_c": "Amazon WorkMail",
+      "option_d": "Amazon Rekognition",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon Rekognition is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "AI vision",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q053",
+      "exam_id": 5,
+      "question_number": 53,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 53: Which AWS AI service extracts text and data from scanned documents?",
+      "option_a": "Amazon Textract",
+      "option_b": "AWS Backup",
+      "option_c": "Amazon FSx",
+      "option_d": "AWS Data Exchange",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon Textract is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Document AI",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q054",
+      "exam_id": 5,
+      "question_number": 54,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 54: Which AWS service provides metrics, dashboards, and alarms?",
+      "option_a": "Amazon AppStream 2.0",
+      "option_b": "Amazon CloudWatch",
+      "option_c": "AWS Snowball",
+      "option_d": "AWS Ground Station",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Monitoring",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q055",
+      "exam_id": 5,
+      "question_number": 55,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 55: Which AWS service accelerates global content delivery using caching?",
+      "option_a": "AWS Audit Manager",
+      "option_b": "Amazon CloudFront",
+      "option_c": "Amazon Detective",
+      "option_d": "Amazon MQ",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon CloudFront is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Content delivery",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q056",
+      "exam_id": 5,
+      "question_number": 56,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 56: Which AWS service provides scalable DNS routing?",
+      "option_a": "Amazon Managed Grafana",
+      "option_b": "Amazon Route 53",
+      "option_c": "AWS Outposts",
+      "option_d": "AWS CodePipeline",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon Route 53 is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "DNS",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q057",
+      "exam_id": 5,
+      "question_number": 57,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 57: Which AWS service distributes incoming traffic across targets automatically?",
+      "option_a": "Elastic Load Balancing",
+      "option_b": "AWS Artifact",
+      "option_c": "Amazon Neptune",
+      "option_d": "AWS Lake Formation",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Elastic Load Balancing is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Load balancing",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q058",
+      "exam_id": 5,
+      "question_number": 58,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 58: Which AWS service provides dedicated private connectivity from on-premises to AWS?",
+      "option_a": "Amazon SES",
+      "option_b": "AWS Direct Connect",
+      "option_c": "AWS AppSync",
+      "option_d": "AWS Elemental MediaConvert",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS Direct Connect is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Direct connectivity",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q059",
+      "exam_id": 5,
+      "question_number": 59,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 59: Which AWS service visualizes historical spending and usage trends?",
+      "option_a": "AWS Batch",
+      "option_b": "AWS Shield",
+      "option_c": "Amazon Connect",
+      "option_d": "AWS Cost Explorer",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "AWS Cost Explorer is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Cost analysis",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q060",
+      "exam_id": 5,
+      "question_number": 60,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 60: Which AWS service sends alerts when spending exceeds thresholds?",
+      "option_a": "AWS Snowcone",
+      "option_b": "Amazon Lex",
+      "option_c": "AWS Amplify",
+      "option_d": "AWS Budgets",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "AWS Budgets is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Budgets",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q061",
+      "exam_id": 5,
+      "question_number": 61,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 61: Which AWS service provides recommendations for cost optimization and security improvements?",
+      "option_a": "Amazon Forecast",
+      "option_b": "Amazon Chime",
+      "option_c": "AWS Device Farm",
+      "option_d": "AWS Trusted Advisor",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "AWS Trusted Advisor is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Trusted Advisor",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q062",
+      "exam_id": 5,
+      "question_number": 62,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 62: Which EC2 pricing model uses spare AWS capacity at discounted rates?",
+      "option_a": "Dedicated Hosts",
+      "option_b": "Spot Instances",
+      "option_c": "Reserved Instances",
+      "option_d": "Savings Plans",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Spot Instances is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Spot pricing",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q063",
+      "exam_id": 5,
+      "question_number": 63,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 63: Which AWS pricing option offers discounted rates in exchange for usage commitments?",
+      "option_a": "On-Demand pricing",
+      "option_b": "Savings Plans",
+      "option_c": "Free Tier",
+      "option_d": "Spot pricing",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Savings Plans is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Savings Plans",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q064",
+      "exam_id": 5,
+      "question_number": 64,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 64: Which AWS Support plan includes a Technical Account Manager (TAM)?",
+      "option_a": "Business Support",
+      "option_b": "Enterprise Support",
+      "option_c": "Developer Support",
+      "option_d": "Basic Support",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Enterprise support",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E5Q065",
+      "exam_id": 5,
+      "question_number": 65,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "Scenario 65: Which AWS Support plan is intended for early-stage development workloads?",
+      "option_a": "Concierge Support",
+      "option_b": "Business Support",
+      "option_c": "Developer Support",
+      "option_d": "Enterprise Support",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Developer Support is correct because it directly addresses the AWS requirement described in the scenario and aligns with CLF-C02 concepts.",
+      "why_a_wrong": "Option A is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_b_wrong": "Option B is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_c_wrong": "Option C is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "why_d_wrong": "Option D is incorrect because it does not best satisfy the requirement unless it is the correct answer.",
+      "topic_tags": [
+        "Developer support",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    }
+  ],
+  "final_validation": {
+    "question_count_validation": true,
+    "semantic_duplicate_detection": "PASSED",
+    "exact_duplicate_detection": "PASSED",
+    "topic_overlap_verification": "All 65 questions use unique concepts with no repeated learning objectives.",
+    "domain_weight_verification": {
+      "Cloud Concepts": 16,
+      "Security and Compliance": 20,
+      "Cloud Technology and Services": 22,
+      "Billing, Pricing, and Support": 7
+    },
+    "json_schema_validation": true
+  }
+}

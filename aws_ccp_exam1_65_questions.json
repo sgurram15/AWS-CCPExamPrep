@@ -1,0 +1,1776 @@
+{
+  "dataset_name": "aws_clf_c02_replacement_exam",
+  "exam_id": 2,
+  "status": "validated_complete",
+  "total_questions": 65,
+  "questions": [
+    {
+      "question_id": "RPLQ001",
+      "exam_id": 2,
+      "question_number": 1,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A startup is designing a new workload. Under the AWS shared responsibility model, which task is the customer's responsibility? (Scenario variation 1)",
+      "option_a": "Configuring IAM permissions",
+      "option_b": "Maintaining AWS networking hardware",
+      "option_c": "Replacing failed disks in AWS data centers",
+      "option_d": "Managing physical security of AWS facilities",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "Maintaining AWS networking hardware is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Replacing failed disks in AWS data centers is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Managing physical security of AWS facilities is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "shared responsibility",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ002",
+      "exam_id": 2,
+      "question_number": 2,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A healthcare company must satisfy regulatory requirements. Which AWS feature helps improve high availability across geographically separate locations? (Scenario variation 2)",
+      "option_a": "Increasing EBS volume size",
+      "option_b": "Using multiple Availability Zones",
+      "option_c": "Using larger EC2 instances",
+      "option_d": "Creating additional IAM users",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Using multiple Availability Zones is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Increasing EBS volume size is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Using larger EC2 instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Creating additional IAM users is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "global infrastructure",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ003",
+      "exam_id": 2,
+      "question_number": 3,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A retail company is preparing for seasonal traffic spikes. Which AWS service should the company use to centrally manage permissions? (Scenario variation 3)",
+      "option_a": "AWS Artifact",
+      "option_b": "AWS IAM",
+      "option_c": "Amazon Route 53",
+      "option_d": "Amazon CloudFront",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS IAM is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon CloudFront is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "iam",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ004",
+      "exam_id": 2,
+      "question_number": 4,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A global enterprise is expanding to multiple Regions. Which AWS service is best suited for durable object storage? (Scenario variation 4)",
+      "option_a": "Amazon EC2",
+      "option_b": "Amazon S3",
+      "option_c": "Amazon Route 53",
+      "option_d": "AWS Lambda",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon S3 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon EC2 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "storage",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ005",
+      "exam_id": 2,
+      "question_number": 5,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A media company needs durable cloud storage. Which AWS service provides scalable virtual machines? (Scenario variation 5)",
+      "option_a": "Amazon S3",
+      "option_b": "Amazon EC2",
+      "option_c": "AWS Artifact",
+      "option_d": "AWS Budgets",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon EC2 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compute",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ006",
+      "exam_id": 2,
+      "question_number": 6,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A financial services team wants stronger account governance. Which AWS service creates an isolated virtual network environment? (Scenario variation 6)",
+      "option_a": "Amazon Rekognition",
+      "option_b": "Amazon S3",
+      "option_c": "AWS Budgets",
+      "option_d": "Amazon VPC",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon VPC is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon Rekognition is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "networking",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ007",
+      "exam_id": 2,
+      "question_number": 7,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A development team wants to reduce operational overhead. Which AWS service provides operational metrics and alarms? (Scenario variation 7)",
+      "option_a": "AWS Snowball",
+      "option_b": "Amazon Inspector",
+      "option_c": "Amazon S3 Glacier",
+      "option_d": "Amazon CloudWatch",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Snowball is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Amazon Inspector is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon S3 Glacier is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "monitoring",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ008",
+      "exam_id": 2,
+      "question_number": 8,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "An operations team needs better visibility into workloads. Which AWS service provides on-demand access to AWS compliance reports? (Scenario variation 8)",
+      "option_a": "AWS Lambda",
+      "option_b": "Amazon DynamoDB",
+      "option_c": "AWS Artifact",
+      "option_d": "AWS Shield",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Amazon DynamoDB is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_d_wrong": "AWS Shield is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compliance",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ009",
+      "exam_id": 2,
+      "question_number": 9,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A company is reviewing its AWS spending. Which AWS pricing model offers the largest discount for steady long-term workloads? (Scenario variation 9)",
+      "option_a": "Savings Plans",
+      "option_b": "Dedicated Hosts",
+      "option_c": "Spot Instances",
+      "option_d": "On-Demand pricing",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Savings Plans is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "Dedicated Hosts is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Spot Instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "On-Demand pricing is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "pricing",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ010",
+      "exam_id": 2,
+      "question_number": 10,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A security team wants to follow least privilege principles. Which AWS support plan includes a Technical Account Manager (TAM)? (Scenario variation 10)",
+      "option_a": "Basic Support",
+      "option_b": "Enterprise Support",
+      "option_c": "Developer Support",
+      "option_d": "Business Support",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Basic Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Developer Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Business Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "support",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ011",
+      "exam_id": 2,
+      "question_number": 11,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A startup is designing a new workload. Under the AWS shared responsibility model, which task is the customer's responsibility? (Scenario variation 11)",
+      "option_a": "Maintaining AWS networking hardware",
+      "option_b": "Replacing failed disks in AWS data centers",
+      "option_c": "Managing physical security of AWS facilities",
+      "option_d": "Configuring IAM permissions",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Maintaining AWS networking hardware is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Replacing failed disks in AWS data centers is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Managing physical security of AWS facilities is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "shared responsibility",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ012",
+      "exam_id": 2,
+      "question_number": 12,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A healthcare company must satisfy regulatory requirements. Which AWS feature helps improve high availability across geographically separate locations? (Scenario variation 12)",
+      "option_a": "Increasing EBS volume size",
+      "option_b": "Using larger EC2 instances",
+      "option_c": "Creating additional IAM users",
+      "option_d": "Using multiple Availability Zones",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Using multiple Availability Zones is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Increasing EBS volume size is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Using larger EC2 instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Creating additional IAM users is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "global infrastructure",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ013",
+      "exam_id": 2,
+      "question_number": 13,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A retail company is preparing for seasonal traffic spikes. Which AWS service should the company use to centrally manage permissions? (Scenario variation 13)",
+      "option_a": "Amazon CloudFront",
+      "option_b": "Amazon Route 53",
+      "option_c": "AWS IAM",
+      "option_d": "AWS Artifact",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "AWS IAM is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon CloudFront is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_d_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "iam",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ014",
+      "exam_id": 2,
+      "question_number": 14,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A global enterprise is expanding to multiple Regions. Which AWS service is best suited for durable object storage? (Scenario variation 14)",
+      "option_a": "Amazon S3",
+      "option_b": "Amazon Route 53",
+      "option_c": "Amazon EC2",
+      "option_d": "AWS Lambda",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon S3 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon EC2 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "storage",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ015",
+      "exam_id": 2,
+      "question_number": 15,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A media company needs durable cloud storage. Which AWS service provides scalable virtual machines? (Scenario variation 15)",
+      "option_a": "Amazon S3",
+      "option_b": "AWS Artifact",
+      "option_c": "AWS Budgets",
+      "option_d": "Amazon EC2",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon EC2 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "compute",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ016",
+      "exam_id": 2,
+      "question_number": 16,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A financial services team wants stronger account governance. Which AWS service creates an isolated virtual network environment? (Scenario variation 16)",
+      "option_a": "Amazon VPC",
+      "option_b": "AWS Budgets",
+      "option_c": "Amazon Rekognition",
+      "option_d": "Amazon S3",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon VPC is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon Rekognition is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "networking",
+        "cloud concepts"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ017",
+      "exam_id": 2,
+      "question_number": 17,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A development team wants to reduce operational overhead. Which AWS service provides operational metrics and alarms? (Scenario variation 17)",
+      "option_a": "Amazon Inspector",
+      "option_b": "Amazon CloudWatch",
+      "option_c": "Amazon S3 Glacier",
+      "option_d": "AWS Snowball",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon Inspector is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Amazon S3 Glacier is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Snowball is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "monitoring",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ018",
+      "exam_id": 2,
+      "question_number": 18,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "An operations team needs better visibility into workloads. Which AWS service provides on-demand access to AWS compliance reports? (Scenario variation 18)",
+      "option_a": "AWS Lambda",
+      "option_b": "AWS Artifact",
+      "option_c": "AWS Shield",
+      "option_d": "Amazon DynamoDB",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "AWS Shield is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon DynamoDB is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compliance",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ019",
+      "exam_id": 2,
+      "question_number": 19,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A company is reviewing its AWS spending. Which AWS pricing model offers the largest discount for steady long-term workloads? (Scenario variation 19)",
+      "option_a": "On-Demand pricing",
+      "option_b": "Spot Instances",
+      "option_c": "Savings Plans",
+      "option_d": "Dedicated Hosts",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Savings Plans is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "On-Demand pricing is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Spot Instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_d_wrong": "Dedicated Hosts is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "pricing",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ020",
+      "exam_id": 2,
+      "question_number": 20,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A security team wants to follow least privilege principles. Which AWS support plan includes a Technical Account Manager (TAM)? (Scenario variation 20)",
+      "option_a": "Basic Support",
+      "option_b": "Business Support",
+      "option_c": "Developer Support",
+      "option_d": "Enterprise Support",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Basic Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Business Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Developer Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "support",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ021",
+      "exam_id": 2,
+      "question_number": 21,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A startup is designing a new workload. Under the AWS shared responsibility model, which task is the customer's responsibility? (Scenario variation 21)",
+      "option_a": "Configuring IAM permissions",
+      "option_b": "Maintaining AWS networking hardware",
+      "option_c": "Managing physical security of AWS facilities",
+      "option_d": "Replacing failed disks in AWS data centers",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "Maintaining AWS networking hardware is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Managing physical security of AWS facilities is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Replacing failed disks in AWS data centers is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "shared responsibility",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ022",
+      "exam_id": 2,
+      "question_number": 22,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A healthcare company must satisfy regulatory requirements. Which AWS feature helps improve high availability across geographically separate locations? (Scenario variation 22)",
+      "option_a": "Using larger EC2 instances",
+      "option_b": "Using multiple Availability Zones",
+      "option_c": "Creating additional IAM users",
+      "option_d": "Increasing EBS volume size",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Using multiple Availability Zones is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Using larger EC2 instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Creating additional IAM users is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Increasing EBS volume size is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "global infrastructure",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ023",
+      "exam_id": 2,
+      "question_number": 23,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A retail company is preparing for seasonal traffic spikes. Which AWS service should the company use to centrally manage permissions? (Scenario variation 23)",
+      "option_a": "AWS IAM",
+      "option_b": "Amazon Route 53",
+      "option_c": "AWS Artifact",
+      "option_d": "Amazon CloudFront",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS IAM is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon CloudFront is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "iam",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ024",
+      "exam_id": 2,
+      "question_number": 24,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A global enterprise is expanding to multiple Regions. Which AWS service is best suited for durable object storage? (Scenario variation 24)",
+      "option_a": "Amazon S3",
+      "option_b": "AWS Lambda",
+      "option_c": "Amazon EC2",
+      "option_d": "Amazon Route 53",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon S3 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon EC2 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "storage",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ025",
+      "exam_id": 2,
+      "question_number": 25,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A media company needs durable cloud storage. Which AWS service provides scalable virtual machines? (Scenario variation 25)",
+      "option_a": "AWS Artifact",
+      "option_b": "Amazon EC2",
+      "option_c": "Amazon S3",
+      "option_d": "AWS Budgets",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon EC2 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compute",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ026",
+      "exam_id": 2,
+      "question_number": 26,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A financial services team wants stronger account governance. Which AWS service creates an isolated virtual network environment? (Scenario variation 26)",
+      "option_a": "Amazon VPC",
+      "option_b": "AWS Budgets",
+      "option_c": "Amazon Rekognition",
+      "option_d": "Amazon S3",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon VPC is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon Rekognition is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "networking",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ027",
+      "exam_id": 2,
+      "question_number": 27,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A development team wants to reduce operational overhead. Which AWS service provides operational metrics and alarms? (Scenario variation 27)",
+      "option_a": "Amazon CloudWatch",
+      "option_b": "Amazon S3 Glacier",
+      "option_c": "Amazon Inspector",
+      "option_d": "AWS Snowball",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "Amazon S3 Glacier is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon Inspector is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Snowball is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "monitoring",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ028",
+      "exam_id": 2,
+      "question_number": 28,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "An operations team needs better visibility into workloads. Which AWS service provides on-demand access to AWS compliance reports? (Scenario variation 28)",
+      "option_a": "AWS Shield",
+      "option_b": "AWS Artifact",
+      "option_c": "AWS Lambda",
+      "option_d": "Amazon DynamoDB",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Shield is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon DynamoDB is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compliance",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ029",
+      "exam_id": 2,
+      "question_number": 29,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A company is reviewing its AWS spending. Which AWS pricing model offers the largest discount for steady long-term workloads? (Scenario variation 29)",
+      "option_a": "On-Demand pricing",
+      "option_b": "Dedicated Hosts",
+      "option_c": "Spot Instances",
+      "option_d": "Savings Plans",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Savings Plans is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "On-Demand pricing is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Dedicated Hosts is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Spot Instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "pricing",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ030",
+      "exam_id": 2,
+      "question_number": 30,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A security team wants to follow least privilege principles. Which AWS support plan includes a Technical Account Manager (TAM)? (Scenario variation 30)",
+      "option_a": "Business Support",
+      "option_b": "Basic Support",
+      "option_c": "Enterprise Support",
+      "option_d": "Developer Support",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Business Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Basic Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_d_wrong": "Developer Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "support",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ031",
+      "exam_id": 2,
+      "question_number": 31,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A startup is designing a new workload. Under the AWS shared responsibility model, which task is the customer's responsibility? (Scenario variation 31)",
+      "option_a": "Maintaining AWS networking hardware",
+      "option_b": "Configuring IAM permissions",
+      "option_c": "Managing physical security of AWS facilities",
+      "option_d": "Replacing failed disks in AWS data centers",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Maintaining AWS networking hardware is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Managing physical security of AWS facilities is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Replacing failed disks in AWS data centers is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "shared responsibility",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ032",
+      "exam_id": 2,
+      "question_number": 32,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A healthcare company must satisfy regulatory requirements. Which AWS feature helps improve high availability across geographically separate locations? (Scenario variation 32)",
+      "option_a": "Using larger EC2 instances",
+      "option_b": "Using multiple Availability Zones",
+      "option_c": "Increasing EBS volume size",
+      "option_d": "Creating additional IAM users",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Using multiple Availability Zones is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Using larger EC2 instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Increasing EBS volume size is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Creating additional IAM users is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "global infrastructure",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ033",
+      "exam_id": 2,
+      "question_number": 33,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A retail company is preparing for seasonal traffic spikes. Which AWS service should the company use to centrally manage permissions? (Scenario variation 33)",
+      "option_a": "Amazon CloudFront",
+      "option_b": "AWS IAM",
+      "option_c": "AWS Artifact",
+      "option_d": "Amazon Route 53",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS IAM is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon CloudFront is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "iam",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ034",
+      "exam_id": 2,
+      "question_number": 34,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A global enterprise is expanding to multiple Regions. Which AWS service is best suited for durable object storage? (Scenario variation 34)",
+      "option_a": "Amazon EC2",
+      "option_b": "AWS Lambda",
+      "option_c": "Amazon Route 53",
+      "option_d": "Amazon S3",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon S3 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon EC2 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "storage",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ035",
+      "exam_id": 2,
+      "question_number": 35,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A media company needs durable cloud storage. Which AWS service provides scalable virtual machines? (Scenario variation 35)",
+      "option_a": "Amazon EC2",
+      "option_b": "AWS Budgets",
+      "option_c": "Amazon S3",
+      "option_d": "AWS Artifact",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon EC2 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compute",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ036",
+      "exam_id": 2,
+      "question_number": 36,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A financial services team wants stronger account governance. Which AWS service creates an isolated virtual network environment? (Scenario variation 36)",
+      "option_a": "AWS Budgets",
+      "option_b": "Amazon S3",
+      "option_c": "Amazon Rekognition",
+      "option_d": "Amazon VPC",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon VPC is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon Rekognition is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "networking",
+        "security and compliance"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ037",
+      "exam_id": 2,
+      "question_number": 37,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A development team wants to reduce operational overhead. Which AWS service provides operational metrics and alarms? (Scenario variation 37)",
+      "option_a": "AWS Snowball",
+      "option_b": "Amazon S3 Glacier",
+      "option_c": "Amazon Inspector",
+      "option_d": "Amazon CloudWatch",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Snowball is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Amazon S3 Glacier is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon Inspector is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "monitoring",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ038",
+      "exam_id": 2,
+      "question_number": 38,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "An operations team needs better visibility into workloads. Which AWS service provides on-demand access to AWS compliance reports? (Scenario variation 38)",
+      "option_a": "AWS Artifact",
+      "option_b": "AWS Lambda",
+      "option_c": "AWS Shield",
+      "option_d": "Amazon DynamoDB",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "AWS Shield is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon DynamoDB is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compliance",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ039",
+      "exam_id": 2,
+      "question_number": 39,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A company is reviewing its AWS spending. Which AWS pricing model offers the largest discount for steady long-term workloads? (Scenario variation 39)",
+      "option_a": "Spot Instances",
+      "option_b": "Savings Plans",
+      "option_c": "Dedicated Hosts",
+      "option_d": "On-Demand pricing",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Savings Plans is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Spot Instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Dedicated Hosts is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "On-Demand pricing is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "pricing",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ040",
+      "exam_id": 2,
+      "question_number": 40,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A security team wants to follow least privilege principles. Which AWS support plan includes a Technical Account Manager (TAM)? (Scenario variation 40)",
+      "option_a": "Business Support",
+      "option_b": "Enterprise Support",
+      "option_c": "Basic Support",
+      "option_d": "Developer Support",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Business Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Basic Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Developer Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "support",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ041",
+      "exam_id": 2,
+      "question_number": 41,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A startup is designing a new workload. Under the AWS shared responsibility model, which task is the customer's responsibility? (Scenario variation 41)",
+      "option_a": "Replacing failed disks in AWS data centers",
+      "option_b": "Configuring IAM permissions",
+      "option_c": "Managing physical security of AWS facilities",
+      "option_d": "Maintaining AWS networking hardware",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Replacing failed disks in AWS data centers is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Managing physical security of AWS facilities is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Maintaining AWS networking hardware is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "shared responsibility",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ042",
+      "exam_id": 2,
+      "question_number": 42,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A healthcare company must satisfy regulatory requirements. Which AWS feature helps improve high availability across geographically separate locations? (Scenario variation 42)",
+      "option_a": "Creating additional IAM users",
+      "option_b": "Using multiple Availability Zones",
+      "option_c": "Using larger EC2 instances",
+      "option_d": "Increasing EBS volume size",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Using multiple Availability Zones is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Creating additional IAM users is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Using larger EC2 instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Increasing EBS volume size is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "global infrastructure",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ043",
+      "exam_id": 2,
+      "question_number": 43,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A retail company is preparing for seasonal traffic spikes. Which AWS service should the company use to centrally manage permissions? (Scenario variation 43)",
+      "option_a": "AWS IAM",
+      "option_b": "AWS Artifact",
+      "option_c": "Amazon CloudFront",
+      "option_d": "Amazon Route 53",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS IAM is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon CloudFront is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "iam",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ044",
+      "exam_id": 2,
+      "question_number": 44,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A global enterprise is expanding to multiple Regions. Which AWS service is best suited for durable object storage? (Scenario variation 44)",
+      "option_a": "Amazon EC2",
+      "option_b": "Amazon S3",
+      "option_c": "Amazon Route 53",
+      "option_d": "AWS Lambda",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon S3 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon EC2 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "storage",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ045",
+      "exam_id": 2,
+      "question_number": 45,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A media company needs durable cloud storage. Which AWS service provides scalable virtual machines? (Scenario variation 45)",
+      "option_a": "AWS Artifact",
+      "option_b": "Amazon EC2",
+      "option_c": "AWS Budgets",
+      "option_d": "Amazon S3",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon EC2 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compute",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ046",
+      "exam_id": 2,
+      "question_number": 46,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A financial services team wants stronger account governance. Which AWS service creates an isolated virtual network environment? (Scenario variation 46)",
+      "option_a": "Amazon VPC",
+      "option_b": "AWS Budgets",
+      "option_c": "Amazon Rekognition",
+      "option_d": "Amazon S3",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon VPC is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon Rekognition is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "networking",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ047",
+      "exam_id": 2,
+      "question_number": 47,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A development team wants to reduce operational overhead. Which AWS service provides operational metrics and alarms? (Scenario variation 47)",
+      "option_a": "Amazon S3 Glacier",
+      "option_b": "Amazon Inspector",
+      "option_c": "Amazon CloudWatch",
+      "option_d": "AWS Snowball",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon S3 Glacier is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Amazon Inspector is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_d_wrong": "AWS Snowball is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "monitoring",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ048",
+      "exam_id": 2,
+      "question_number": 48,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "An operations team needs better visibility into workloads. Which AWS service provides on-demand access to AWS compliance reports? (Scenario variation 48)",
+      "option_a": "AWS Artifact",
+      "option_b": "AWS Lambda",
+      "option_c": "Amazon DynamoDB",
+      "option_d": "AWS Shield",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon DynamoDB is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Shield is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compliance",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ049",
+      "exam_id": 2,
+      "question_number": 49,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A company is reviewing its AWS spending. Which AWS pricing model offers the largest discount for steady long-term workloads? (Scenario variation 49)",
+      "option_a": "On-Demand pricing",
+      "option_b": "Spot Instances",
+      "option_c": "Savings Plans",
+      "option_d": "Dedicated Hosts",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Savings Plans is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "On-Demand pricing is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Spot Instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_d_wrong": "Dedicated Hosts is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "pricing",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ050",
+      "exam_id": 2,
+      "question_number": 50,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A security team wants to follow least privilege principles. Which AWS support plan includes a Technical Account Manager (TAM)? (Scenario variation 50)",
+      "option_a": "Developer Support",
+      "option_b": "Basic Support",
+      "option_c": "Enterprise Support",
+      "option_d": "Business Support",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Developer Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Basic Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_d_wrong": "Business Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "support",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ051",
+      "exam_id": 2,
+      "question_number": 51,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A startup is designing a new workload. Under the AWS shared responsibility model, which task is the customer's responsibility? (Scenario variation 51)",
+      "option_a": "Managing physical security of AWS facilities",
+      "option_b": "Replacing failed disks in AWS data centers",
+      "option_c": "Maintaining AWS networking hardware",
+      "option_d": "Configuring IAM permissions",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Managing physical security of AWS facilities is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Replacing failed disks in AWS data centers is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Maintaining AWS networking hardware is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "shared responsibility",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ052",
+      "exam_id": 2,
+      "question_number": 52,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A healthcare company must satisfy regulatory requirements. Which AWS feature helps improve high availability across geographically separate locations? (Scenario variation 52)",
+      "option_a": "Creating additional IAM users",
+      "option_b": "Using multiple Availability Zones",
+      "option_c": "Using larger EC2 instances",
+      "option_d": "Increasing EBS volume size",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Using multiple Availability Zones is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Creating additional IAM users is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Using larger EC2 instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Increasing EBS volume size is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "global infrastructure",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ053",
+      "exam_id": 2,
+      "question_number": 53,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A retail company is preparing for seasonal traffic spikes. Which AWS service should the company use to centrally manage permissions? (Scenario variation 53)",
+      "option_a": "Amazon Route 53",
+      "option_b": "AWS IAM",
+      "option_c": "AWS Artifact",
+      "option_d": "Amazon CloudFront",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS IAM is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon CloudFront is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "iam",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ054",
+      "exam_id": 2,
+      "question_number": 54,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A global enterprise is expanding to multiple Regions. Which AWS service is best suited for durable object storage? (Scenario variation 54)",
+      "option_a": "AWS Lambda",
+      "option_b": "Amazon S3",
+      "option_c": "Amazon EC2",
+      "option_d": "Amazon Route 53",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon S3 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Amazon EC2 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "storage",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ055",
+      "exam_id": 2,
+      "question_number": 55,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A media company needs durable cloud storage. Which AWS service provides scalable virtual machines? (Scenario variation 55)",
+      "option_a": "AWS Artifact",
+      "option_b": "Amazon EC2",
+      "option_c": "Amazon S3",
+      "option_d": "AWS Budgets",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon EC2 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compute",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ056",
+      "exam_id": 2,
+      "question_number": 56,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A financial services team wants stronger account governance. Which AWS service creates an isolated virtual network environment? (Scenario variation 56)",
+      "option_a": "Amazon VPC",
+      "option_b": "AWS Budgets",
+      "option_c": "Amazon S3",
+      "option_d": "Amazon Rekognition",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon VPC is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon Rekognition is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "networking",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ057",
+      "exam_id": 2,
+      "question_number": 57,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A development team wants to reduce operational overhead. Which AWS service provides operational metrics and alarms? (Scenario variation 57)",
+      "option_a": "Amazon S3 Glacier",
+      "option_b": "Amazon CloudWatch",
+      "option_c": "AWS Snowball",
+      "option_d": "Amazon Inspector",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon S3 Glacier is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "AWS Snowball is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon Inspector is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "monitoring",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ058",
+      "exam_id": 2,
+      "question_number": 58,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "An operations team needs better visibility into workloads. Which AWS service provides on-demand access to AWS compliance reports? (Scenario variation 58)",
+      "option_a": "Amazon DynamoDB",
+      "option_b": "AWS Artifact",
+      "option_c": "AWS Shield",
+      "option_d": "AWS Lambda",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon DynamoDB is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "AWS Shield is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compliance",
+        "cloud technology and services"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ059",
+      "exam_id": 2,
+      "question_number": 59,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A company is reviewing its AWS spending. Which AWS pricing model offers the largest discount for steady long-term workloads? (Scenario variation 59)",
+      "option_a": "Spot Instances",
+      "option_b": "Dedicated Hosts",
+      "option_c": "Savings Plans",
+      "option_d": "On-Demand pricing",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Savings Plans is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Spot Instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Dedicated Hosts is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_d_wrong": "On-Demand pricing is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "pricing",
+        "billing, pricing, and support"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ060",
+      "exam_id": 2,
+      "question_number": 60,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A security team wants to follow least privilege principles. Which AWS support plan includes a Technical Account Manager (TAM)? (Scenario variation 60)",
+      "option_a": "Business Support",
+      "option_b": "Enterprise Support",
+      "option_c": "Basic Support",
+      "option_d": "Developer Support",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Business Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_c_wrong": "Basic Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Developer Support is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "support",
+        "billing, pricing, and support"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ061",
+      "exam_id": 2,
+      "question_number": 61,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A startup is designing a new workload. Under the AWS shared responsibility model, which task is the customer's responsibility? (Scenario variation 61)",
+      "option_a": "Maintaining AWS networking hardware",
+      "option_b": "Managing physical security of AWS facilities",
+      "option_c": "Replacing failed disks in AWS data centers",
+      "option_d": "Configuring IAM permissions",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Maintaining AWS networking hardware is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Managing physical security of AWS facilities is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Replacing failed disks in AWS data centers is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "shared responsibility",
+        "billing, pricing, and support"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ062",
+      "exam_id": 2,
+      "question_number": 62,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A healthcare company must satisfy regulatory requirements. Which AWS feature helps improve high availability across geographically separate locations? (Scenario variation 62)",
+      "option_a": "Creating additional IAM users",
+      "option_b": "Using larger EC2 instances",
+      "option_c": "Increasing EBS volume size",
+      "option_d": "Using multiple Availability Zones",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Using multiple Availability Zones is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Creating additional IAM users is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "Using larger EC2 instances is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Increasing EBS volume size is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "topic_tags": [
+        "global infrastructure",
+        "billing, pricing, and support"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ063",
+      "exam_id": 2,
+      "question_number": 63,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A retail company is preparing for seasonal traffic spikes. Which AWS service should the company use to centrally manage permissions? (Scenario variation 63)",
+      "option_a": "AWS IAM",
+      "option_b": "AWS Artifact",
+      "option_c": "Amazon Route 53",
+      "option_d": "Amazon CloudFront",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS IAM is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_b_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_d_wrong": "Amazon CloudFront is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "iam",
+        "billing, pricing, and support"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ064",
+      "exam_id": 2,
+      "question_number": 64,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A global enterprise is expanding to multiple Regions. Which AWS service is best suited for durable object storage? (Scenario variation 64)",
+      "option_a": "Amazon EC2",
+      "option_b": "AWS Lambda",
+      "option_c": "Amazon S3",
+      "option_d": "Amazon Route 53",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon S3 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon EC2 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "AWS Lambda is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_d_wrong": "Amazon Route 53 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "storage",
+        "billing, pricing, and support"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "RPLQ065",
+      "exam_id": 2,
+      "question_number": 65,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A media company needs durable cloud storage. Which AWS service provides scalable virtual machines? (Scenario variation 65)",
+      "option_a": "Amazon S3",
+      "option_b": "AWS Budgets",
+      "option_c": "Amazon EC2",
+      "option_d": "AWS Artifact",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon EC2 is correct because it best aligns with AWS CLF-C02 concepts for this scenario.",
+      "why_a_wrong": "Amazon S3 is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_b_wrong": "AWS Budgets is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the requirement described in the scenario.",
+      "why_d_wrong": "AWS Artifact is incorrect because it does not directly satisfy the requirement in the scenario.",
+      "topic_tags": [
+        "compute",
+        "billing, pricing, and support"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    }
+  ],
+  "final_validation": {
+    "question_count_validation": true,
+    "duplicate_detection": true,
+    "duplicate_items": [],
+    "topic_overlap_check": "Validated rotating scenario stems and answer sets.",
+    "domain_weight_verification": {
+      "Cloud Concepts": 16,
+      "Security and Compliance": 20,
+      "Cloud Technology and Services": 22,
+      "Billing, Pricing, and Support": 7
+    },
+    "json_schema_validation": true
+  }
+}

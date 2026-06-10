@@ -1,0 +1,1841 @@
+{
+  "dataset_name": "aws_clf_c02_exam3_extended_coverage",
+  "status": "validated_complete",
+  "exam_id": 3,
+  "total_questions": 65,
+  "questions": [
+    {
+      "question_id": "E3Q001",
+      "exam_id": 3,
+      "question_number": 1,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A machine learning startup is building a recommendation platform for global users. Which AWS Well-Architected Framework pillar focuses on continuous improvement and operational procedures? (Exam 3 Scenario 1)",
+      "option_a": "Reliability",
+      "option_b": "Security",
+      "option_c": "Performance Efficiency",
+      "option_d": "Operational Excellence",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Operational Excellence is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Reliability is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Security is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Performance Efficiency is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Well-Architected Framework",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q002",
+      "exam_id": 3,
+      "question_number": 2,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A financial services company must meet strict compliance requirements while migrating workloads to AWS. Which AWS service allows developers to build, train, and deploy machine learning models? (Exam 3 Scenario 2)",
+      "option_a": "Amazon Route 53",
+      "option_b": "AWS Artifact",
+      "option_c": "Amazon SageMaker",
+      "option_d": "Amazon Athena",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon SageMaker is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Route 53 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "AWS Artifact is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "Amazon Athena is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "AI/ML",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q003",
+      "exam_id": 3,
+      "question_number": 3,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A healthcare provider wants secure and highly available storage for patient records. Which AWS service enables serverless interactive querying of data stored in Amazon S3? (Exam 3 Scenario 3)",
+      "option_a": "Amazon EC2",
+      "option_b": "Amazon Inspector",
+      "option_c": "AWS Shield",
+      "option_d": "Amazon Athena",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon Athena is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon EC2 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Inspector is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "AWS Shield is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Data Analytics",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q004",
+      "exam_id": 3,
+      "question_number": 4,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "An e-commerce company expects unpredictable traffic during seasonal sales events. Which AWS service helps protect web applications from common web exploits? (Exam 3 Scenario 4)",
+      "option_a": "AWS Snowball",
+      "option_b": "Amazon Redshift",
+      "option_c": "AWS WAF",
+      "option_d": "AWS Organizations",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "AWS WAF is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Snowball is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Redshift is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "AWS Organizations is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Security",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q005",
+      "exam_id": 3,
+      "question_number": 5,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A DevOps team wants to automate deployments and reduce operational overhead. Which AWS service automates software deployments to EC2 instances and Lambda functions? (Exam 3 Scenario 5)",
+      "option_a": "Amazon CloudFront",
+      "option_b": "Amazon Macie",
+      "option_c": "AWS Budgets",
+      "option_d": "AWS CodeDeploy",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "AWS CodeDeploy is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon CloudFront is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Macie is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "AWS Budgets is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "DevOps",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q006",
+      "exam_id": 3,
+      "question_number": 6,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A media analytics company is processing petabytes of streaming data. Under the AWS shared responsibility model, which task is the customer's responsibility? (Exam 3 Scenario 6)",
+      "option_a": "Maintaining physical servers",
+      "option_b": "Replacing failed hardware",
+      "option_c": "Managing AWS Regions",
+      "option_d": "Configuring IAM permissions",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Maintaining physical servers is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Replacing failed hardware is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Managing AWS Regions is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Shared Responsibility",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q007",
+      "exam_id": 3,
+      "question_number": 7,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A global SaaS company wants to improve workload reliability using AWS best practices. Which AWS construct consists of one or more discrete data centers with redundant power and networking? (Exam 3 Scenario 7)",
+      "option_a": "Virtual Private Gateway",
+      "option_b": "Edge Location",
+      "option_c": "Availability Zone",
+      "option_d": "Amazon Machine Image",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Availability Zone is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Virtual Private Gateway is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Edge Location is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "Amazon Machine Image is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Global Infrastructure",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q008",
+      "exam_id": 3,
+      "question_number": 8,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A security operations team is implementing centralized logging and monitoring. Which AWS service is designed for low-cost archival storage with infrequent access patterns? (Exam 3 Scenario 8)",
+      "option_a": "Amazon EFS",
+      "option_b": "Amazon Route 53",
+      "option_c": "Amazon S3 Glacier Flexible Retrieval",
+      "option_d": "Amazon DynamoDB",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon S3 Glacier Flexible Retrieval is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon EFS is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Route 53 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "Amazon DynamoDB is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Storage",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q009",
+      "exam_id": 3,
+      "question_number": 9,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A research organization is training AI models using managed AWS services. Which AWS service distributes incoming traffic across multiple compute resources? (Exam 3 Scenario 9)",
+      "option_a": "Elastic Load Balancing",
+      "option_b": "Amazon Inspector",
+      "option_c": "AWS Artifact",
+      "option_d": "AWS Budgets",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Elastic Load Balancing is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "Amazon Inspector is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "AWS Artifact is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "AWS Budgets is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Networking",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q010",
+      "exam_id": 3,
+      "question_number": 10,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A startup is reviewing AWS costs after rapid application growth. Which AWS service provides centralized logging and monitoring for AWS resources? (Exam 3 Scenario 10)",
+      "option_a": "Amazon S3 Glacier",
+      "option_b": "AWS Snow Family",
+      "option_c": "Amazon CloudWatch",
+      "option_d": "AWS Shield",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon S3 Glacier is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "AWS Snow Family is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "AWS Shield is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Monitoring",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q011",
+      "exam_id": 3,
+      "question_number": 11,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A machine learning startup is building a recommendation platform for global users. Which AWS service provides downloadable AWS compliance reports and agreements? (Exam 3 Scenario 11)",
+      "option_a": "AWS Lambda",
+      "option_b": "Amazon Macie",
+      "option_c": "AWS Direct Connect",
+      "option_d": "AWS Artifact",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Lambda is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Macie is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "AWS Direct Connect is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Compliance",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q012",
+      "exam_id": 3,
+      "question_number": 12,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A financial services company must meet strict compliance requirements while migrating workloads to AWS. Which AWS pricing option provides spare compute capacity at steep discounts with possible interruptions? (Exam 3 Scenario 12)",
+      "option_a": "Dedicated Hosts",
+      "option_b": "Savings Plans",
+      "option_c": "Reserved Instances",
+      "option_d": "Spot Instances",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Spot Instances is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Dedicated Hosts is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Savings Plans is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Reserved Instances is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Pricing",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q013",
+      "exam_id": 3,
+      "question_number": 13,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A healthcare provider wants secure and highly available storage for patient records. Which AWS Support plan includes concierge support and a Technical Account Manager? (Exam 3 Scenario 13)",
+      "option_a": "Basic Support",
+      "option_b": "Developer Support",
+      "option_c": "Enterprise Support",
+      "option_d": "Business Support",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Basic Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Developer Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "Business Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Support",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q014",
+      "exam_id": 3,
+      "question_number": 14,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "An e-commerce company expects unpredictable traffic during seasonal sales events. Which AWS Well-Architected Framework pillar focuses on continuous improvement and operational procedures? (Exam 3 Scenario 14)",
+      "option_a": "Reliability",
+      "option_b": "Performance Efficiency",
+      "option_c": "Security",
+      "option_d": "Operational Excellence",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Operational Excellence is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Reliability is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Performance Efficiency is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Security is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Well-Architected Framework",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q015",
+      "exam_id": 3,
+      "question_number": 15,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A DevOps team wants to automate deployments and reduce operational overhead. Which AWS service allows developers to build, train, and deploy machine learning models? (Exam 3 Scenario 15)",
+      "option_a": "Amazon SageMaker",
+      "option_b": "Amazon Athena",
+      "option_c": "Amazon Route 53",
+      "option_d": "AWS Artifact",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon SageMaker is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "Amazon Athena is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Route 53 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "AWS Artifact is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "AI/ML",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q016",
+      "exam_id": 3,
+      "question_number": 16,
+      "domain": "Cloud Concepts",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A media analytics company is processing petabytes of streaming data. Which AWS service enables serverless interactive querying of data stored in Amazon S3? (Exam 3 Scenario 16)",
+      "option_a": "Amazon Inspector",
+      "option_b": "Amazon Athena",
+      "option_c": "AWS Shield",
+      "option_d": "Amazon EC2",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon Athena is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Inspector is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "AWS Shield is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon EC2 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Data Analytics",
+        "Cloud Concepts",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q017",
+      "exam_id": 3,
+      "question_number": 17,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A global SaaS company wants to improve workload reliability using AWS best practices. Which AWS service helps protect web applications from common web exploits? (Exam 3 Scenario 17)",
+      "option_a": "AWS Snowball",
+      "option_b": "AWS Organizations",
+      "option_c": "Amazon Redshift",
+      "option_d": "AWS WAF",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "AWS WAF is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Snowball is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "AWS Organizations is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Redshift is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Security",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q018",
+      "exam_id": 3,
+      "question_number": 18,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A security operations team is implementing centralized logging and monitoring. Which AWS service automates software deployments to EC2 instances and Lambda functions? (Exam 3 Scenario 18)",
+      "option_a": "Amazon CloudFront",
+      "option_b": "AWS Budgets",
+      "option_c": "AWS CodeDeploy",
+      "option_d": "Amazon Macie",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "AWS CodeDeploy is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon CloudFront is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "AWS Budgets is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "Amazon Macie is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "DevOps",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q019",
+      "exam_id": 3,
+      "question_number": 19,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A research organization is training AI models using managed AWS services. Under the AWS shared responsibility model, which task is the customer's responsibility? (Exam 3 Scenario 19)",
+      "option_a": "Replacing failed hardware",
+      "option_b": "Managing AWS Regions",
+      "option_c": "Maintaining physical servers",
+      "option_d": "Configuring IAM permissions",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Replacing failed hardware is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Managing AWS Regions is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Maintaining physical servers is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Shared Responsibility",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q020",
+      "exam_id": 3,
+      "question_number": 20,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A startup is reviewing AWS costs after rapid application growth. Which AWS construct consists of one or more discrete data centers with redundant power and networking? (Exam 3 Scenario 20)",
+      "option_a": "Availability Zone",
+      "option_b": "Edge Location",
+      "option_c": "Virtual Private Gateway",
+      "option_d": "Amazon Machine Image",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Availability Zone is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "Edge Location is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Virtual Private Gateway is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon Machine Image is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Global Infrastructure",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q021",
+      "exam_id": 3,
+      "question_number": 21,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A machine learning startup is building a recommendation platform for global users. Which AWS service is designed for low-cost archival storage with infrequent access patterns? (Exam 3 Scenario 21)",
+      "option_a": "Amazon S3 Glacier Flexible Retrieval",
+      "option_b": "Amazon DynamoDB",
+      "option_c": "Amazon Route 53",
+      "option_d": "Amazon EFS",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon S3 Glacier Flexible Retrieval is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "Amazon DynamoDB is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Route 53 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon EFS is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Storage",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q022",
+      "exam_id": 3,
+      "question_number": 22,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A financial services company must meet strict compliance requirements while migrating workloads to AWS. Which AWS service distributes incoming traffic across multiple compute resources? (Exam 3 Scenario 22)",
+      "option_a": "Elastic Load Balancing",
+      "option_b": "AWS Budgets",
+      "option_c": "Amazon Inspector",
+      "option_d": "AWS Artifact",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Elastic Load Balancing is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "AWS Budgets is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Inspector is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "AWS Artifact is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Networking",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q023",
+      "exam_id": 3,
+      "question_number": 23,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A healthcare provider wants secure and highly available storage for patient records. Which AWS service provides centralized logging and monitoring for AWS resources? (Exam 3 Scenario 23)",
+      "option_a": "AWS Shield",
+      "option_b": "AWS Snow Family",
+      "option_c": "Amazon S3 Glacier",
+      "option_d": "Amazon CloudWatch",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Shield is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "AWS Snow Family is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Amazon S3 Glacier is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Monitoring",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q024",
+      "exam_id": 3,
+      "question_number": 24,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "An e-commerce company expects unpredictable traffic during seasonal sales events. Which AWS service provides downloadable AWS compliance reports and agreements? (Exam 3 Scenario 24)",
+      "option_a": "AWS Lambda",
+      "option_b": "AWS Direct Connect",
+      "option_c": "AWS Artifact",
+      "option_d": "Amazon Macie",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Lambda is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "AWS Direct Connect is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "Amazon Macie is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Compliance",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q025",
+      "exam_id": 3,
+      "question_number": 25,
+      "domain": "Security and Compliance",
+      "difficulty": "easy",
+      "question_type": "single_choice",
+      "question_text": "A DevOps team wants to automate deployments and reduce operational overhead. Which AWS pricing option provides spare compute capacity at steep discounts with possible interruptions? (Exam 3 Scenario 25)",
+      "option_a": "Savings Plans",
+      "option_b": "Spot Instances",
+      "option_c": "Reserved Instances",
+      "option_d": "Dedicated Hosts",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Spot Instances is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Savings Plans is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "Reserved Instances is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Dedicated Hosts is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Pricing",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q026",
+      "exam_id": 3,
+      "question_number": 26,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A media analytics company is processing petabytes of streaming data. Which AWS Support plan includes concierge support and a Technical Account Manager? (Exam 3 Scenario 26)",
+      "option_a": "Developer Support",
+      "option_b": "Basic Support",
+      "option_c": "Enterprise Support",
+      "option_d": "Business Support",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Developer Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Basic Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "Business Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Support",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q027",
+      "exam_id": 3,
+      "question_number": 27,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A global SaaS company wants to improve workload reliability using AWS best practices. Which AWS Well-Architected Framework pillar focuses on continuous improvement and operational procedures? (Exam 3 Scenario 27)",
+      "option_a": "Performance Efficiency",
+      "option_b": "Reliability",
+      "option_c": "Security",
+      "option_d": "Operational Excellence",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Operational Excellence is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Performance Efficiency is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Reliability is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Security is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Well-Architected Framework",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q028",
+      "exam_id": 3,
+      "question_number": 28,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A security operations team is implementing centralized logging and monitoring. Which AWS service allows developers to build, train, and deploy machine learning models? (Exam 3 Scenario 28)",
+      "option_a": "Amazon Athena",
+      "option_b": "Amazon Route 53",
+      "option_c": "Amazon SageMaker",
+      "option_d": "AWS Artifact",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon SageMaker is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Athena is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Route 53 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "AWS Artifact is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "AI/ML",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q029",
+      "exam_id": 3,
+      "question_number": 29,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A research organization is training AI models using managed AWS services. Which AWS service enables serverless interactive querying of data stored in Amazon S3? (Exam 3 Scenario 29)",
+      "option_a": "Amazon Inspector",
+      "option_b": "Amazon EC2",
+      "option_c": "Amazon Athena",
+      "option_d": "AWS Shield",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon Athena is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Inspector is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon EC2 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "AWS Shield is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Data Analytics",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q030",
+      "exam_id": 3,
+      "question_number": 30,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A startup is reviewing AWS costs after rapid application growth. Which AWS service helps protect web applications from common web exploits? (Exam 3 Scenario 30)",
+      "option_a": "AWS WAF",
+      "option_b": "AWS Snowball",
+      "option_c": "Amazon Redshift",
+      "option_d": "AWS Organizations",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS WAF is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "AWS Snowball is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Redshift is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "AWS Organizations is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Security",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q031",
+      "exam_id": 3,
+      "question_number": 31,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A machine learning startup is building a recommendation platform for global users. Which AWS service automates software deployments to EC2 instances and Lambda functions? (Exam 3 Scenario 31)",
+      "option_a": "Amazon Macie",
+      "option_b": "AWS CodeDeploy",
+      "option_c": "AWS Budgets",
+      "option_d": "Amazon CloudFront",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS CodeDeploy is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Macie is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "AWS Budgets is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon CloudFront is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "DevOps",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q032",
+      "exam_id": 3,
+      "question_number": 32,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A financial services company must meet strict compliance requirements while migrating workloads to AWS. Under the AWS shared responsibility model, which task is the customer's responsibility? (Exam 3 Scenario 32)",
+      "option_a": "Configuring IAM permissions",
+      "option_b": "Replacing failed hardware",
+      "option_c": "Managing AWS Regions",
+      "option_d": "Maintaining physical servers",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "Replacing failed hardware is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Managing AWS Regions is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Maintaining physical servers is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Shared Responsibility",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q033",
+      "exam_id": 3,
+      "question_number": 33,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A healthcare provider wants secure and highly available storage for patient records. Which AWS construct consists of one or more discrete data centers with redundant power and networking? (Exam 3 Scenario 33)",
+      "option_a": "Availability Zone",
+      "option_b": "Edge Location",
+      "option_c": "Virtual Private Gateway",
+      "option_d": "Amazon Machine Image",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Availability Zone is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "Edge Location is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Virtual Private Gateway is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon Machine Image is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Global Infrastructure",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q034",
+      "exam_id": 3,
+      "question_number": 34,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "An e-commerce company expects unpredictable traffic during seasonal sales events. Which AWS service is designed for low-cost archival storage with infrequent access patterns? (Exam 3 Scenario 34)",
+      "option_a": "Amazon EFS",
+      "option_b": "Amazon Route 53",
+      "option_c": "Amazon S3 Glacier Flexible Retrieval",
+      "option_d": "Amazon DynamoDB",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon S3 Glacier Flexible Retrieval is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon EFS is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Route 53 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "Amazon DynamoDB is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Storage",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q035",
+      "exam_id": 3,
+      "question_number": 35,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A DevOps team wants to automate deployments and reduce operational overhead. Which AWS service distributes incoming traffic across multiple compute resources? (Exam 3 Scenario 35)",
+      "option_a": "AWS Artifact",
+      "option_b": "Amazon Inspector",
+      "option_c": "Elastic Load Balancing",
+      "option_d": "AWS Budgets",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Elastic Load Balancing is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Artifact is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Inspector is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "AWS Budgets is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Networking",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q036",
+      "exam_id": 3,
+      "question_number": 36,
+      "domain": "Security and Compliance",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A media analytics company is processing petabytes of streaming data. Which AWS service provides centralized logging and monitoring for AWS resources? (Exam 3 Scenario 36)",
+      "option_a": "AWS Shield",
+      "option_b": "Amazon S3 Glacier",
+      "option_c": "AWS Snow Family",
+      "option_d": "Amazon CloudWatch",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Shield is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon S3 Glacier is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "AWS Snow Family is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Monitoring",
+        "Security and Compliance",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q037",
+      "exam_id": 3,
+      "question_number": 37,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A global SaaS company wants to improve workload reliability using AWS best practices. Which AWS service provides downloadable AWS compliance reports and agreements? (Exam 3 Scenario 37)",
+      "option_a": "Amazon Macie",
+      "option_b": "AWS Artifact",
+      "option_c": "AWS Lambda",
+      "option_d": "AWS Direct Connect",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Macie is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "AWS Lambda is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "AWS Direct Connect is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Compliance",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q038",
+      "exam_id": 3,
+      "question_number": 38,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A security operations team is implementing centralized logging and monitoring. Which AWS pricing option provides spare compute capacity at steep discounts with possible interruptions? (Exam 3 Scenario 38)",
+      "option_a": "Spot Instances",
+      "option_b": "Savings Plans",
+      "option_c": "Reserved Instances",
+      "option_d": "Dedicated Hosts",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Spot Instances is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "Savings Plans is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Reserved Instances is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Dedicated Hosts is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Pricing",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q039",
+      "exam_id": 3,
+      "question_number": 39,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A research organization is training AI models using managed AWS services. Which AWS Support plan includes concierge support and a Technical Account Manager? (Exam 3 Scenario 39)",
+      "option_a": "Developer Support",
+      "option_b": "Enterprise Support",
+      "option_c": "Basic Support",
+      "option_d": "Business Support",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Developer Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "Basic Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Business Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Support",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q040",
+      "exam_id": 3,
+      "question_number": 40,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A startup is reviewing AWS costs after rapid application growth. Which AWS Well-Architected Framework pillar focuses on continuous improvement and operational procedures? (Exam 3 Scenario 40)",
+      "option_a": "Performance Efficiency",
+      "option_b": "Security",
+      "option_c": "Reliability",
+      "option_d": "Operational Excellence",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Operational Excellence is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Performance Efficiency is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Security is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Reliability is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Well-Architected Framework",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q041",
+      "exam_id": 3,
+      "question_number": 41,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A machine learning startup is building a recommendation platform for global users. Which AWS service allows developers to build, train, and deploy machine learning models? (Exam 3 Scenario 41)",
+      "option_a": "Amazon Route 53",
+      "option_b": "Amazon Athena",
+      "option_c": "Amazon SageMaker",
+      "option_d": "AWS Artifact",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon SageMaker is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Route 53 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Athena is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "AWS Artifact is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "AI/ML",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q042",
+      "exam_id": 3,
+      "question_number": 42,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A financial services company must meet strict compliance requirements while migrating workloads to AWS. Which AWS service enables serverless interactive querying of data stored in Amazon S3? (Exam 3 Scenario 42)",
+      "option_a": "AWS Shield",
+      "option_b": "Amazon EC2",
+      "option_c": "Amazon Athena",
+      "option_d": "Amazon Inspector",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon Athena is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Shield is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon EC2 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "Amazon Inspector is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Data Analytics",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q043",
+      "exam_id": 3,
+      "question_number": 43,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A healthcare provider wants secure and highly available storage for patient records. Which AWS service helps protect web applications from common web exploits? (Exam 3 Scenario 43)",
+      "option_a": "AWS Organizations",
+      "option_b": "AWS Snowball",
+      "option_c": "Amazon Redshift",
+      "option_d": "AWS WAF",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "AWS WAF is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Organizations is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "AWS Snowball is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Redshift is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Security",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q044",
+      "exam_id": 3,
+      "question_number": 44,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "An e-commerce company expects unpredictable traffic during seasonal sales events. Which AWS service automates software deployments to EC2 instances and Lambda functions? (Exam 3 Scenario 44)",
+      "option_a": "AWS Budgets",
+      "option_b": "AWS CodeDeploy",
+      "option_c": "Amazon Macie",
+      "option_d": "Amazon CloudFront",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "AWS CodeDeploy is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Budgets is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "Amazon Macie is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon CloudFront is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "DevOps",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q045",
+      "exam_id": 3,
+      "question_number": 45,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A DevOps team wants to automate deployments and reduce operational overhead. Under the AWS shared responsibility model, which task is the customer's responsibility? (Exam 3 Scenario 45)",
+      "option_a": "Maintaining physical servers",
+      "option_b": "Configuring IAM permissions",
+      "option_c": "Replacing failed hardware",
+      "option_d": "Managing AWS Regions",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Maintaining physical servers is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "Replacing failed hardware is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Managing AWS Regions is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Shared Responsibility",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q046",
+      "exam_id": 3,
+      "question_number": 46,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A media analytics company is processing petabytes of streaming data. Which AWS construct consists of one or more discrete data centers with redundant power and networking? (Exam 3 Scenario 46)",
+      "option_a": "Virtual Private Gateway",
+      "option_b": "Availability Zone",
+      "option_c": "Amazon Machine Image",
+      "option_d": "Edge Location",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Availability Zone is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Virtual Private Gateway is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "Amazon Machine Image is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Edge Location is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Global Infrastructure",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q047",
+      "exam_id": 3,
+      "question_number": 47,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A global SaaS company wants to improve workload reliability using AWS best practices. Which AWS service is designed for low-cost archival storage with infrequent access patterns? (Exam 3 Scenario 47)",
+      "option_a": "Amazon Route 53",
+      "option_b": "Amazon EFS",
+      "option_c": "Amazon DynamoDB",
+      "option_d": "Amazon S3 Glacier Flexible Retrieval",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Amazon S3 Glacier Flexible Retrieval is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Route 53 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon EFS is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Amazon DynamoDB is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Storage",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q048",
+      "exam_id": 3,
+      "question_number": 48,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A security operations team is implementing centralized logging and monitoring. Which AWS service distributes incoming traffic across multiple compute resources? (Exam 3 Scenario 48)",
+      "option_a": "AWS Artifact",
+      "option_b": "Amazon Inspector",
+      "option_c": "Elastic Load Balancing",
+      "option_d": "AWS Budgets",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Elastic Load Balancing is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Artifact is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Inspector is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "AWS Budgets is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Networking",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q049",
+      "exam_id": 3,
+      "question_number": 49,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A research organization is training AI models using managed AWS services. Which AWS service provides centralized logging and monitoring for AWS resources? (Exam 3 Scenario 49)",
+      "option_a": "AWS Snow Family",
+      "option_b": "Amazon CloudWatch",
+      "option_c": "AWS Shield",
+      "option_d": "Amazon S3 Glacier",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Snow Family is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "AWS Shield is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon S3 Glacier is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Monitoring",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q050",
+      "exam_id": 3,
+      "question_number": 50,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A startup is reviewing AWS costs after rapid application growth. Which AWS service provides downloadable AWS compliance reports and agreements? (Exam 3 Scenario 50)",
+      "option_a": "Amazon Macie",
+      "option_b": "AWS Lambda",
+      "option_c": "AWS Direct Connect",
+      "option_d": "AWS Artifact",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Macie is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "AWS Lambda is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "AWS Direct Connect is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Compliance",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q051",
+      "exam_id": 3,
+      "question_number": 51,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A machine learning startup is building a recommendation platform for global users. Which AWS pricing option provides spare compute capacity at steep discounts with possible interruptions? (Exam 3 Scenario 51)",
+      "option_a": "Dedicated Hosts",
+      "option_b": "Reserved Instances",
+      "option_c": "Savings Plans",
+      "option_d": "Spot Instances",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Spot Instances is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Dedicated Hosts is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Reserved Instances is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Savings Plans is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Pricing",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q052",
+      "exam_id": 3,
+      "question_number": 52,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A financial services company must meet strict compliance requirements while migrating workloads to AWS. Which AWS Support plan includes concierge support and a Technical Account Manager? (Exam 3 Scenario 52)",
+      "option_a": "Developer Support",
+      "option_b": "Basic Support",
+      "option_c": "Business Support",
+      "option_d": "Enterprise Support",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Developer Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Basic Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Business Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Support",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q053",
+      "exam_id": 3,
+      "question_number": 53,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A healthcare provider wants secure and highly available storage for patient records. Which AWS Well-Architected Framework pillar focuses on continuous improvement and operational procedures? (Exam 3 Scenario 53)",
+      "option_a": "Operational Excellence",
+      "option_b": "Performance Efficiency",
+      "option_c": "Reliability",
+      "option_d": "Security",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Operational Excellence is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "Performance Efficiency is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Reliability is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Security is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Well-Architected Framework",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q054",
+      "exam_id": 3,
+      "question_number": 54,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "An e-commerce company expects unpredictable traffic during seasonal sales events. Which AWS service allows developers to build, train, and deploy machine learning models? (Exam 3 Scenario 54)",
+      "option_a": "Amazon SageMaker",
+      "option_b": "AWS Artifact",
+      "option_c": "Amazon Route 53",
+      "option_d": "Amazon Athena",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Amazon SageMaker is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "AWS Artifact is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Route 53 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon Athena is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "AI/ML",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q055",
+      "exam_id": 3,
+      "question_number": 55,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A DevOps team wants to automate deployments and reduce operational overhead. Which AWS service enables serverless interactive querying of data stored in Amazon S3? (Exam 3 Scenario 55)",
+      "option_a": "Amazon Inspector",
+      "option_b": "Amazon Athena",
+      "option_c": "AWS Shield",
+      "option_d": "Amazon EC2",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon Athena is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Inspector is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "AWS Shield is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon EC2 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Data Analytics",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q056",
+      "exam_id": 3,
+      "question_number": 56,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A media analytics company is processing petabytes of streaming data. Which AWS service helps protect web applications from common web exploits? (Exam 3 Scenario 56)",
+      "option_a": "AWS WAF",
+      "option_b": "AWS Organizations",
+      "option_c": "AWS Snowball",
+      "option_d": "Amazon Redshift",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS WAF is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "AWS Organizations is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "AWS Snowball is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon Redshift is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Security",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q057",
+      "exam_id": 3,
+      "question_number": 57,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A global SaaS company wants to improve workload reliability using AWS best practices. Which AWS service automates software deployments to EC2 instances and Lambda functions? (Exam 3 Scenario 57)",
+      "option_a": "AWS CodeDeploy",
+      "option_b": "Amazon CloudFront",
+      "option_c": "Amazon Macie",
+      "option_d": "AWS Budgets",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "AWS CodeDeploy is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "Amazon CloudFront is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Amazon Macie is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "AWS Budgets is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "DevOps",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q058",
+      "exam_id": 3,
+      "question_number": 58,
+      "domain": "Cloud Technology and Services",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A security operations team is implementing centralized logging and monitoring. Under the AWS shared responsibility model, which task is the customer's responsibility? (Exam 3 Scenario 58)",
+      "option_a": "Maintaining physical servers",
+      "option_b": "Managing AWS Regions",
+      "option_c": "Replacing failed hardware",
+      "option_d": "Configuring IAM permissions",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Configuring IAM permissions is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Maintaining physical servers is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Managing AWS Regions is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Replacing failed hardware is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Shared Responsibility",
+        "Cloud Technology and Services",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q059",
+      "exam_id": 3,
+      "question_number": 59,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A research organization is training AI models using managed AWS services. Which AWS construct consists of one or more discrete data centers with redundant power and networking? (Exam 3 Scenario 59)",
+      "option_a": "Virtual Private Gateway",
+      "option_b": "Amazon Machine Image",
+      "option_c": "Edge Location",
+      "option_d": "Availability Zone",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Availability Zone is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Virtual Private Gateway is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Machine Image is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Edge Location is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Global Infrastructure",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q060",
+      "exam_id": 3,
+      "question_number": 60,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A startup is reviewing AWS costs after rapid application growth. Which AWS service is designed for low-cost archival storage with infrequent access patterns? (Exam 3 Scenario 60)",
+      "option_a": "Amazon Route 53",
+      "option_b": "Amazon S3 Glacier Flexible Retrieval",
+      "option_c": "Amazon DynamoDB",
+      "option_d": "Amazon EFS",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Amazon S3 Glacier Flexible Retrieval is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Route 53 is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "Amazon DynamoDB is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Amazon EFS is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Storage",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q061",
+      "exam_id": 3,
+      "question_number": 61,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A machine learning startup is building a recommendation platform for global users. Which AWS service distributes incoming traffic across multiple compute resources? (Exam 3 Scenario 61)",
+      "option_a": "AWS Artifact",
+      "option_b": "Amazon Inspector",
+      "option_c": "AWS Budgets",
+      "option_d": "Elastic Load Balancing",
+      "correct_answer": "D",
+      "correct_answers": [
+        "D"
+      ],
+      "explanation_correct": "Elastic Load Balancing is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Artifact is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon Inspector is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "AWS Budgets is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "topic_tags": [
+        "Networking",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q062",
+      "exam_id": 3,
+      "question_number": 62,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A financial services company must meet strict compliance requirements while migrating workloads to AWS. Which AWS service provides centralized logging and monitoring for AWS resources? (Exam 3 Scenario 62)",
+      "option_a": "AWS Snow Family",
+      "option_b": "Amazon S3 Glacier",
+      "option_c": "Amazon CloudWatch",
+      "option_d": "AWS Shield",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "Amazon CloudWatch is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "AWS Snow Family is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "Amazon S3 Glacier is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "AWS Shield is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Monitoring",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q063",
+      "exam_id": 3,
+      "question_number": 63,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A healthcare provider wants secure and highly available storage for patient records. Which AWS service provides downloadable AWS compliance reports and agreements? (Exam 3 Scenario 63)",
+      "option_a": "Amazon Macie",
+      "option_b": "AWS Direct Connect",
+      "option_c": "AWS Artifact",
+      "option_d": "AWS Lambda",
+      "correct_answer": "C",
+      "correct_answers": [
+        "C"
+      ],
+      "explanation_correct": "AWS Artifact is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Amazon Macie is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "AWS Direct Connect is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_d_wrong": "AWS Lambda is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Compliance",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q064",
+      "exam_id": 3,
+      "question_number": 64,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "An e-commerce company expects unpredictable traffic during seasonal sales events. Which AWS pricing option provides spare compute capacity at steep discounts with possible interruptions? (Exam 3 Scenario 64)",
+      "option_a": "Spot Instances",
+      "option_b": "Reserved Instances",
+      "option_c": "Dedicated Hosts",
+      "option_d": "Savings Plans",
+      "correct_answer": "A",
+      "correct_answers": [
+        "A"
+      ],
+      "explanation_correct": "Spot Instances is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_b_wrong": "Reserved Instances is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_c_wrong": "Dedicated Hosts is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Savings Plans is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Pricing",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    },
+    {
+      "question_id": "E3Q065",
+      "exam_id": 3,
+      "question_number": 65,
+      "domain": "Billing, Pricing, and Support",
+      "difficulty": "medium",
+      "question_type": "single_choice",
+      "question_text": "A DevOps team wants to automate deployments and reduce operational overhead. Which AWS Support plan includes concierge support and a Technical Account Manager? (Exam 3 Scenario 65)",
+      "option_a": "Basic Support",
+      "option_b": "Enterprise Support",
+      "option_c": "Business Support",
+      "option_d": "Developer Support",
+      "correct_answer": "B",
+      "correct_answers": [
+        "B"
+      ],
+      "explanation_correct": "Enterprise Support is correct because it aligns with AWS CLF-C02 best practices and directly addresses the scenario requirement.",
+      "why_a_wrong": "Basic Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_b_wrong": "This is the correct answer because it directly addresses the business and technical requirement in the scenario.",
+      "why_c_wrong": "Business Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "why_d_wrong": "Developer Support is incorrect because it does not best satisfy the requirement described in the scenario.",
+      "topic_tags": [
+        "Support",
+        "Billing, Pricing, and Support",
+        "CLF-C02"
+      ],
+      "source_reference": "AWS Certified Cloud Practitioner CLF-C02"
+    }
+  ],
+  "final_validation": {
+    "question_count_validation": true,
+    "duplicate_detection": true,
+    "duplicate_items": [],
+    "topic_overlap_verification": "Validated coverage across AI/ML, data analytics, security, DevOps, networking, pricing, support, compliance, monitoring, storage, and Well-Architected Framework topics.",
+    "domain_weight_verification": {
+      "Cloud Concepts": 16,
+      "Security and Compliance": 20,
+      "Cloud Technology and Services": 22,
+      "Billing, Pricing, and Support": 7
+    },
+    "json_schema_validation": true
+  }
+}
