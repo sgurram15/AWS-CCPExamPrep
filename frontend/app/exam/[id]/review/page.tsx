@@ -6,9 +6,8 @@ import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { RequireAuth } from "@/components/RequireAuth";
 import { Badge } from "@/components/Badge";
-import { apiGet } from "@/lib/api";
+import { getReview } from "@/lib/store";
 import { DOMAIN_SHORT, formatDuration } from "@/lib/format";
-import type { AttemptReview } from "@/lib/types";
 
 const LETTERS = ["A", "B", "C", "D"];
 
@@ -26,7 +25,7 @@ function ReviewInner() {
 
   const { data } = useQuery({
     queryKey: ["review", id, incorrectOnly],
-    queryFn: () => apiGet<AttemptReview>(`/attempts/${id}/review?incorrect_only=${incorrectOnly}`),
+    queryFn: async () => getReview(id, incorrectOnly) ?? null,
   });
 
   if (!data) return <div className="py-20 text-center text-slate-400">Loading results…</div>;

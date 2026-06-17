@@ -4,8 +4,7 @@ import Link from "next/link";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { RequireAuth } from "@/components/RequireAuth";
 import { QuestionCard } from "@/components/QuestionCard";
-import { apiGet } from "@/lib/api";
-import type { QuestionPublic } from "@/lib/types";
+import { listBookmarkedQuestions } from "@/lib/store";
 
 export default function BookmarksPage() {
   return (
@@ -19,7 +18,7 @@ function BookmarksInner() {
   const qc = useQueryClient();
   const { data } = useQuery({
     queryKey: ["bookmarks"],
-    queryFn: () => apiGet<QuestionPublic[]>("/bookmarks"),
+    queryFn: async () => listBookmarkedQuestions(),
   });
 
   return (

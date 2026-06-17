@@ -4,36 +4,33 @@ A zero-cost, self-hosted AWS **Certified Cloud Practitioner (CLF-C02)** exam-pre
 platform: timed mock exams, untimed practice with full explanations,
 domain-focused adaptive study, bookmarks, and progress tracking.
 
-- **Backend:** FastAPI + SQLAlchemy 2.0 + **SQLite** (no Docker, no Postgres, no cloud)
-- **Frontend:** Next.js 15 (App Router) + TypeScript + Tailwind v4 + TanStack Query + Recharts
-- **Auth:** lightweight local email/password (JWT)
-- **AI:** none required. The "tutor" surfaces the explanations already stored in
-  your dataset (deterministic, free). A generative tutor is left as an optional,
-  pluggable layer behind an env flag.
+> **Architecture (current): a self-contained static frontend.**
+> The app now runs **entirely in the browser** — no backend, no database, no
+> auth server. The question bank is bundled as JSON at build time, and all
+> per-user state (attempts, bookmarks, notes, progress) is stored in
+> `localStorage`. This makes it a zero-cost static deploy (e.g. Vercel free
+> tier). The FastAPI/SQLite backend under `backend/` is **retained as legacy**
+> and is no longer required to run the app.
 
-> **Why no RAG / pgvector?** For a fixed bank of a few hundred short questions
-> whose explanations are already authored, vector search + an LLM add cost and
-> infrastructure for little benefit. The architecture migrates to
-> Postgres + pgvector later by changing `DATABASE_URL` — application code is
-> unchanged.
+- **Frontend (the app):** Next.js 15 (App Router) + TypeScript + Tailwind v4 + TanStack Query
+  - `lib/dataset.ts` — loads + normalizes + dedups the bundled question JSON (ports the old ingestion)
+  - `lib/engine.ts` — question-set selection + grading + scaled scoring + tutor text
+  - `lib/store.ts` — `localStorage`-backed attempts, bookmarks, notes, and derived progress
+- **AI:** none. The "tutor" surfaces the explanations already authored in the dataset (deterministic, free).
+- **Backend (legacy/optional):** FastAPI + SQLAlchemy 2.0 + SQLite — kept for reference; see "Legacy backend" below.
 
 ---
 
-## ⚠️ Data quality note (read this)
+## Data sets
 
-The bundled `aws_ccp_exam1_65_questions.json` is **not study-ready**:
-
-1. **Only 8 genuinely unique questions.** The file lists 65, but they are 8
-   questions repeated ~8× with the options merely rearranged. The ingestion
-   pipeline **deduplicates** them down to 8 (you don't want duplicates in an exam).
-2. **The correct answer was always "A".** Ingestion **shuffles option order**
-   (deterministically, seeded by `question_id`) and remaps the correct letters
-   so the exam isn't trivially gameable.
-3. **Explanations are templated** ("serves a different AWS purpose").
-
-The app and pipeline are correct for *real* data — they just need real data.
-Import a proper question bank via the admin ingest endpoint (JSON/CSV/XLSX) to
-make this study-ready.
+- **`aws_ccp_exam1_65_questions.json` — curated & study-ready.** 65 genuinely
+  unique CLF-C02 questions with rich, per-option explanations. Each question
+  carries `why_<letter>_wrong` rationales **only for the incorrect options**.
+  This is the dataset the static app loads (`frontend/data/exam1.json`).
+- **`aws_ccp_exam2_65_questions.json` / `aws_clf_c02_exam3_extended_coverage.json`
+  — legacy, not yet rewritten.** Templated explanations and generation noise;
+  **excluded** from the app until brought up to exam1's standard. To include
+  one, add it to `frontend/data/` and import it in `lib/dataset.ts`.
 
 ---
 
@@ -41,65 +38,51 @@ make this study-ready.
 
 ```
 CCP Exam prep/
-├── aws_ccp_exam1_65_questions.json   # bundled seed dataset
-├── backend/
-│   ├── app/
-│   │   ├── main.py            # FastAPI app + routers + CORS
-│   │   ├── config.py          # env-overridable settings (safe local defaults)
-│   │   ├── database.py        # SQLAlchemy engine/session (SQLite)
-│   │   ├── models.py          # User, Exam, Question, ExamAttempt, Answer, Bookmark, Note
-│   │   ├── schemas.py         # Pydantic request/response models
-│   │   ├── ingestion.py       # parse → validate → normalize → shuffle → dedup → store
-│   │   ├── selection.py       # builds question sets (full/practice/domain/bookmark/review)
-│   │   ├── scoring.py         # CLF-C02 scaled scoring + domain analytics
-│   │   ├── security.py        # password hashing + JWT
-│   │   ├── seed.py            # loads the bundled dataset
-│   │   └── routers/           # auth, questions, exams, attempts, bookmarks, notes, progress, admin, tutor
-│   ├── tests/                 # pytest: ingestion + full exam flow
-│   ├── requirements.txt
-│   └── .env.example
-└── frontend/
-    ├── app/                   # /, login, register, dashboard, questions, study, exam/[id], exam/[id]/review, bookmarks
-    ├── components/            # NavBar, AuthForm, QuestionCard, ExamTimer, Badge, RequireAuth
-    ├── lib/                   # api client, auth context, types, formatters
-    └── package.json
+├── aws_ccp_exam1_65_questions.json   # source dataset (curated) — copied into frontend/data/
+├── aws_ccp_exam2_65_questions.json   # legacy, not used by the app
+├── aws_clf_c02_exam3_extended_coverage.json  # legacy, not used by the app
+├── frontend/                  # THE APP (static, client-side)
+│   ├── data/
+│   │   └── exam1.json         # bundled question bank (build-time import)
+│   ├── app/                   # /, dashboard, questions, study, exam/[id], exam/[id]/review, bookmarks
+│   ├── components/            # NavBar, QuestionCard, ExamTimer, Badge, RequireAuth (passthrough)
+│   ├── lib/
+│   │   ├── dataset.ts         # load + normalize + dedup the question JSON
+│   │   ├── engine.ts          # selection (full/practice/domain/bookmark/review) + grading + scoring + tutor
+│   │   ├── store.ts           # localStorage: attempts, bookmarks, notes, derived progress
+│   │   ├── types.ts           # shared types
+│   │   └── format.ts          # formatters
+│   └── package.json
+└── backend/                   # LEGACY (FastAPI + SQLite) — optional, not required
+    └── app/ …                 # main, config, models, ingestion, selection, scoring, routers, tests
 ```
 
 ---
 
 ## Local setup
 
+The app is just the frontend — **no backend, no database, no env vars needed.**
+
 ### Prerequisites
-- Python 3.11+
 - Node.js 20+ (tested on 22)
 
-### 1. Backend
-
-```bash
-cd backend
-python -m venv .venv
-# Windows PowerShell:  .venv\Scripts\Activate.ps1
-# macOS/Linux:         source .venv/bin/activate
-pip install -r requirements.txt
-
-cp .env.example .env          # optional; defaults work out of the box
-python -m app.seed            # creates ccp_prep.db and loads the dataset
-uvicorn app.main:app --reload --port 8000
-```
-
-API docs (Swagger): http://localhost:8000/docs
-Health check: http://localhost:8000/health
-
-### 2. Frontend
+### Run it
 
 ```bash
 cd frontend
 npm install
-cp .env.local.example .env.local   # sets NEXT_PUBLIC_API_URL=http://localhost:8000
 npm run dev
 ```
 
-App: http://localhost:3000 — register an account and start studying.
+App: http://localhost:3000 — go straight to **Study** and start. Your progress
+is saved in this browser (`localStorage`).
+
+Build / type-check everything:
+
+```bash
+cd frontend
+npm run build
+```
 
 ---
 
@@ -181,10 +164,33 @@ Then wire the provider call in `backend/app/routers/tutor.py` (marked with a
 
 ---
 
-## Deployment notes
+## Deploy to Vercel (free tier)
 
-- **Frontend** → Vercel (set `NEXT_PUBLIC_API_URL` to your API URL).
-- **Backend** → any host that runs Python (Fly.io, Render, a VM). For multi-user
-  production, switch `DATABASE_URL` to Postgres and replace `init_db()` with
-  Alembic migrations.
-- Set a strong `JWT_SECRET` in production.
+The app is a self-contained Next.js frontend — no backend, no env vars.
+
+1. Push this repo to GitHub.
+2. In Vercel: **New Project → Import** the repo.
+3. Set **Root Directory** to `frontend` (Vercel auto-detects Next.js; no env vars).
+4. **Deploy.** That's it.
+
+Local production preview: `cd frontend && npm run build && npm start`.
+
+> Notes: All state is per-browser (`localStorage`) — there's no cross-device
+> sync, which is expected for a single-user study tool. The `/exam/[id]` routes
+> render on demand but do all their work client-side; the Vercel Hobby (free)
+> tier covers this with no configuration.
+
+## Legacy backend (optional, not required)
+
+The FastAPI + SQLite backend under `backend/` predates the static rewrite and is
+kept for reference. The frontend no longer talks to it. If you want to run it:
+
+```bash
+cd backend
+python -m venv .venv && .venv\Scripts\Activate.ps1   # (or: source .venv/bin/activate)
+pip install -r requirements.txt
+python -m app.seed
+uvicorn app.main:app --reload --port 8000
+```
+
+The optional generative AI tutor settings above also live in the legacy backend.

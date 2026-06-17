@@ -4,8 +4,8 @@ import { useState } from "react";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import { RequireAuth } from "@/components/RequireAuth";
 import { QuestionCard } from "@/components/QuestionCard";
-import { apiGet } from "@/lib/api";
-import type { Facets, QuestionList, QuestionPublic } from "@/lib/types";
+import { FACETS } from "@/lib/dataset";
+import { getBookmarkIds, queryQuestions } from "@/lib/store";
 
 export default function QuestionsPage() {
   return (
@@ -23,30 +23,21 @@ function QuestionsInner() {
   const [page, setPage] = useState(1);
   const size = 10;
 
-  const { data: facets } = useQuery({
-    queryKey: ["facets"],
-    queryFn: () => apiGet<Facets>("/questions/facets"),
-  });
+  const { data: facets } = useQuery({ queryKey: ["facets"], queryFn: async () => FACETS });
 
-  const params = new URLSearchParams();
-  if (domain) params.set("domain", domain);
-  if (difficulty) params.set("difficulty", difficulty);
-  if (examId) params.set("exam_id", examId);
-  if (search) params.set("q", search);
-  params.set("page", String(page));
-  params.set("size", String(size));
+  const filter = { domain, difficulty, exam_id: examId, q: search, page, size };
 
   const { data, isFetching } = useQuery({
-    queryKey: ["questions", params.toString()],
-    queryFn: () => apiGet<QuestionList>(`/questions?${params.toString()}`),
+    queryKey: ["questions", filter],
+    queryFn: async () => queryQuestions(filter),
     placeholderData: keepPreviousData,
   });
 
   const { data: bookmarks } = useQuery({
     queryKey: ["bookmark-ids"],
-    queryFn: () => apiGet<QuestionPublic[]>("/bookmarks"),
+    queryFn: async () => getBookmarkIds(),
   });
-  const bookmarkedIds = new Set((bookmarks || []).map((b) => b.id));
+  const bookmarkedIds = new Set(bookmarks || []);
 
   const totalPages = data ? Math.ceil(data.total / size) : 1;
 
