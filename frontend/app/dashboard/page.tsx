@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { useQuery } from "@tanstack/react-query";
 import { RequireAuth } from "@/components/RequireAuth";
-import { apiGet } from "@/lib/api";
+import { getDashboard, listHistory } from "@/lib/store";
 import { formatDate, formatDuration } from "@/lib/format";
-import type { AttemptHistoryItem, Dashboard } from "@/lib/types";
+import type { AttemptHistoryItem } from "@/lib/types";
 
 export default function DashboardPage() {
   return (
@@ -18,11 +18,11 @@ export default function DashboardPage() {
 function DashboardInner() {
   const { data: dash } = useQuery({
     queryKey: ["dashboard"],
-    queryFn: () => apiGet<Dashboard>("/progress/dashboard"),
+    queryFn: async () => getDashboard(),
   });
   const { data: history } = useQuery({
     queryKey: ["history"],
-    queryFn: () => apiGet<AttemptHistoryItem[]>("/attempts"),
+    queryFn: async () => listHistory(),
   });
 
   const all = history || [];

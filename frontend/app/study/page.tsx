@@ -4,8 +4,9 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { RequireAuth } from "@/components/RequireAuth";
-import { apiGet, apiPost } from "@/lib/api";
-import type { Attempt, Exam, Facets } from "@/lib/types";
+import { EXAMS, FACETS } from "@/lib/dataset";
+import { createAttempt } from "@/lib/store";
+import type { AttemptConfig } from "@/lib/engine";
 
 export default function StudyPage() {
   return (
@@ -20,17 +21,19 @@ function StudyInner() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const { data: exams } = useQuery({ queryKey: ["exams"], queryFn: () => apiGet<Exam[]>("/exams") });
-  const { data: facets } = useQuery({
-    queryKey: ["facets"],
-    queryFn: () => apiGet<Facets>("/questions/facets"),
-  });
+  const { data: exams } = useQuery({ queryKey: ["exams"], queryFn: async () => EXAMS });
+  const { data: facets } = useQuery({ queryKey: ["facets"], queryFn: async () => FACETS });
 
-  const start = async (body: Record<string, unknown>) => {
+  const start = (body: AttemptConfig) => {
     setBusy(true);
     setError(null);
     try {
-      const attempt = await apiPost<Attempt>("/attempts", body);
+      const attempt = createAttempt(body);
+      if (!attempt.question_ids.length) {
+        setError("No questions available for this selection.");
+        setBusy(false);
+        return;
+      }
       router.push(`/exam/${attempt.id}`);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Could not start");

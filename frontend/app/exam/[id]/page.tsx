@@ -6,8 +6,8 @@ import { useQuery } from "@tanstack/react-query";
 import { RequireAuth } from "@/components/RequireAuth";
 import { ExamTimer } from "@/components/ExamTimer";
 import { Badge } from "@/components/Badge";
-import { apiGet, apiPatch, apiPost } from "@/lib/api";
-import type { Attempt, ReviewQuestion } from "@/lib/types";
+import { gradeQuestion, getAttempt, saveAnswers, submitAttempt } from "@/lib/store";
+import type { ReviewQuestion } from "@/lib/types";
 
 const LETTERS = ["A", "B", "C", "D"];
 
@@ -41,7 +41,7 @@ function ExamRunner() {
 
   const { data: attempt, isLoading } = useQuery({
     queryKey: ["attempt", id],
-    queryFn: () => apiGet<Attempt>(`/attempts/${id}`),
+    queryFn: async () => getAttempt(id) ?? null,
   });
 
   // hydrate local answer state once the attempt loads
@@ -59,31 +59,21 @@ function ExamRunner() {
 
   // Persist the latest answers. Stable across renders (reads answersRef, not
   // the answers state), so the autosave effect doesn't re-fire on every click.
-  const flush = useCallback(async () => {
+  const flush = useCallback(() => {
     if (!attempt) return;
-    const payload = attempt.questions.map((q) => ({
-      question_id: q.question.id,
-      selected_answers: answersRef.current[q.question.id]?.selected ?? [],
-      flagged: answersRef.current[q.question.id]?.flagged ?? false,
-      time_spent_seconds: 0,
-    }));
-    try {
-      await apiPatch(`/attempts/${id}/answers`, { answers: payload });
-      dirty.current = false;
-    } catch {
-      /* keep dirty so the next tick retries */
-    }
+    saveAnswers(id, answersRef.current);
+    dirty.current = false;
   }, [attempt, id]);
 
   // autosave every 5s and on unmount (effect re-runs only when the attempt loads)
   useEffect(() => {
     if (!attempt) return;
     const t = setInterval(() => {
-      if (dirty.current) void flush();
+      if (dirty.current) flush();
     }, 5000);
     return () => {
       clearInterval(t);
-      void flush();
+      flush();
     };
   }, [attempt, flush]);
 
@@ -121,24 +111,17 @@ function ExamRunner() {
     dirty.current = true;
   };
 
-  const gradeOne = async (qid: string) => {
-    await flush(); // always persist the current selection before grading
-    const res = await apiPost<ReviewQuestion>(
-      `/attempts/${id}/grade-question?question_id=${qid}`,
-      {}
-    );
-    setGraded((prev) => ({ ...prev, [qid]: res }));
+  const gradeOne = (qid: string) => {
+    flush(); // always persist the current selection before grading
+    const res = gradeQuestion(id, qid);
+    if (res) setGraded((prev) => ({ ...prev, [qid]: res }));
   };
 
-  const submit = useCallback(async () => {
+  const submit = useCallback(() => {
     setSubmitting(true);
-    await flush();
-    try {
-      await apiPost(`/attempts/${id}/submit`, {});
-      router.push(`/exam/${id}/review`);
-    } catch {
-      setSubmitting(false);
-    }
+    flush();
+    submitAttempt(id);
+    router.push(`/exam/${id}/review`);
   }, [flush, id, router]);
 
   const answeredCount = useMemo(

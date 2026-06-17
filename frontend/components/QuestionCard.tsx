@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 import { Badge } from "@/components/Badge";
-import { apiDelete, apiGet, apiPost } from "@/lib/api";
-import type { QuestionFull, QuestionPublic, TutorResponse } from "@/lib/types";
+import { getQuestion } from "@/lib/dataset";
+import { tutorExplain } from "@/lib/engine";
+import { isBookmarked, toggleBookmark } from "@/lib/store";
+import type { QuestionFull, QuestionPublic } from "@/lib/types";
 
 const LETTERS = ["A", "B", "C", "D"];
 
@@ -16,38 +18,25 @@ export function QuestionCard({
   bookmarked?: boolean;
   onBookmarkChange?: (id: string, value: boolean) => void;
 }) {
-  const [marked, setMarked] = useState(!!bookmarked);
-  const [explanation, setExplanation] = useState<TutorResponse | null>(null);
+  const [marked, setMarked] = useState(bookmarked ?? isBookmarked(q.id));
+  const [explanation, setExplanation] = useState<string | null>(null);
   const [full, setFull] = useState<QuestionFull | null>(null);
-  const [loading, setLoading] = useState(false);
 
-  const toggleBookmark = async () => {
-    try {
-      if (marked) await apiDelete(`/bookmarks/${q.id}`);
-      else await apiPost("/bookmarks", { question_id: q.id });
-      setMarked(!marked);
-      onBookmarkChange?.(q.id, !marked);
-    } catch {
-      /* ignore */
-    }
+  const onToggleBookmark = () => {
+    const value = toggleBookmark(q.id);
+    setMarked(value);
+    onBookmarkChange?.(q.id, value);
   };
 
-  const explain = async () => {
+  const explain = () => {
     if (explanation) {
       setExplanation(null);
       return;
     }
-    setLoading(true);
-    try {
-      const [tutor, detail] = await Promise.all([
-        apiPost<TutorResponse>("/tutor", { mode: "explain", question_id: q.id }),
-        apiGet<QuestionFull>(`/questions/${q.id}`),
-      ]);
-      setExplanation(tutor);
-      setFull(detail);
-    } finally {
-      setLoading(false);
-    }
+    const detail = getQuestion(q.id);
+    if (!detail) return;
+    setFull(detail);
+    setExplanation(tutorExplain(detail));
   };
 
   return (
@@ -55,7 +44,7 @@ export function QuestionCard({
       <div className="mb-2 flex items-center gap-2">
         <Badge tone="blue">{q.domain}</Badge>
         <Badge>{q.difficulty}</Badge>
-        <button onClick={toggleBookmark} className="ml-auto text-sm">
+        <button onClick={onToggleBookmark} className="ml-auto text-sm">
           {marked ? <span className="text-amber-600">★ Bookmarked</span> : <span className="text-slate-400">☆ Bookmark</span>}
         </button>
       </div>
@@ -85,13 +74,13 @@ export function QuestionCard({
         ))}
       </div>
       <button onClick={explain} className="mt-3 text-sm text-blue-600 hover:underline">
-        {loading ? "Loading…" : explanation ? "Hide explanation" : "Show answer & explanation"}
+        {explanation ? "Hide explanation" : "Show answer & explanation"}
       </button>
       {explanation && (
         <div className="mt-2 whitespace-pre-wrap rounded-lg bg-slate-50 p-3 text-sm text-slate-700">
-          {explanation.content}
-          {explanation.citations.length > 0 && (
-            <div className="mt-2 text-xs text-slate-400">Source: {explanation.citations.join(", ")}</div>
+          {explanation}
+          {full && (
+            <div className="mt-2 text-xs text-slate-400">Source: {full.question_id}</div>
           )}
         </div>
       )}
